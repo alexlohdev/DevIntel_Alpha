@@ -268,6 +268,26 @@ last_sync = get_last_sync([df_master_all, df_units_all, df_house_all])
 pemaju_list = get_pemaju_list(DATA_DIR)
 pemaju_options = ["All"] + pemaju_list
 
+# ... inside the Sidebar ...
+
+st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+st.markdown("#### 💬 Feedback")
+
+with st.form(key='feedback_form'):
+    feedback_text = st.text_area("Found a bug or have an idea?", height=80)
+    submit_button = st.form_submit_button(label='Send to Developer')
+    
+    if submit_button and feedback_text:
+        # In a real app, save this to a DB or send an email.
+        # For now, just log it or save to a local CSV.
+        
+        # simple append to a feedback csv
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open("data/feedback_log.csv", "a") as f:
+            f.write(f"{timestamp},{feedback_text}\n")
+            
+        st.success("Thanks! I've received your feedback.")
+
 # =========================================================
 # UI Components
 # =========================================================
@@ -580,3 +600,4 @@ elif page == "Trends":
 
         except Exception as e:
             st.error(f"Error loading history data: {e}")
+
