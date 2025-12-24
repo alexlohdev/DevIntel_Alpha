@@ -12,7 +12,7 @@ from datetime import datetime
 DATA_DIR = "data/pemaju"
 HISTORY_FILE = "data/history_tracker.csv"
 ACCESS_LOG_FILE = "data/access_logs.csv"
-FEEDBACK_FILE = "data/feedback.csv"
+
 
 # =========================================================
 # PAGE CONFIG
@@ -87,47 +87,7 @@ def log_access(name, org):
     except Exception as e:
         print(f"Logging failed: {e}")
 
-def log_feedback(name, company, email, feedback_text, features_text, helpful_score):
-    """Log user feedback to a CSV file."""
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    header = ["Timestamp", "Name", "Company", "Email", "Feedback", "Feature Requests", "Helpful Score"]
-    
-    file_exists = os.path.exists(FEEDBACK_FILE)
-    
-    try:
-        with open(FEEDBACK_FILE, mode="a", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            if not file_exists:
-                writer.writerow(header)
-            writer.writerow([timestamp, name, company, email, feedback_text, features_text, helpful_score])
-    except Exception as e:
-        print(f"Feedback logging failed: {e}")
 
-@st.dialog("We value your feedback")
-def feedback_modal():
-    st.write("We'd love to hear your thoughts!")
-    
-    with st.form("feedback_form_modal"):
-        c1, c2 = st.columns(2)
-        with c1:
-            name_default = st.session_state.get("user_name", "")
-            name = st.text_input("Name", value=name_default)
-            email = st.text_input("Email Address")
-        with c2:
-            company = st.text_input("Company")
-        
-        st.markdown("---")
-        fb_text = st.text_area("1. Please give us your feedback", height=100)
-        features_text = st.text_area("2. What other feature you would like to have", height=80)
-        
-        st.write("3. Do you find this helpful for your marketing planning and future projects?")
-        helpful = st.radio("Helpful?", ["Yes, very helpful", "Somewhat", "No"], label_visibility="collapsed")
-        
-        submitted = st.form_submit_button("Submit Feedback", use_container_width=True)
-        
-        if submitted:
-            log_feedback(name, company, email, fb_text, features_text, helpful)
-            st.success("Thank you very much for your feedback!")
 
 def check_login():
     """Simple gatekeeper ensuring user enters name."""
@@ -358,10 +318,7 @@ with st.sidebar:
     nav_items = ["Overview", "Projects", "Trends"]
     page = st.radio("Navigation", nav_items, index=0)
 
-    st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
-    
-    if st.button("⭐ Give Feedback", use_container_width=True):
-        feedback_modal()
+
 
 # =========================================================
 # LOAD DATA
