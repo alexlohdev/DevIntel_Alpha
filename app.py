@@ -1,4 +1,5 @@
 import os
+import csv
 import glob
 import io
 import streamlit as st
@@ -10,6 +11,8 @@ from datetime import datetime
 # =========================
 DATA_DIR = "data/pemaju"
 HISTORY_FILE = "data/history_tracker.csv"
+ACCESS_LOG_FILE = "data/access_logs.csv"
+FEEDBACK_FILE = "data/feedback.csv"
 
 # =========================================================
 # PAGE CONFIG
@@ -62,13 +65,110 @@ def apply_theme():
         unsafe_allow_html=True,
     )
 
+apply_theme()
+
+# =========================================================
+# AUTHENTICATION & LOGGING
+# =========================================================
+def log_access(name, org):
+    """Log user access to a CSV file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    header = ["Timestamp", "Name", "Organization"]
+    
+    # Check if file exists to write header
+    file_exists = os.path.exists(ACCESS_LOG_FILE)
+    
+    try:
+        with open(ACCESS_LOG_FILE, mode="a", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            if not file_exists:
+                writer.writerow(header)
+            writer.writerow([timestamp, name, org])
+    except Exception as e:
+        print(f"Logging failed: {e}")
+
+def log_feedback(name, company, email, feedback_text, features_text, helpful_score):
+    """Log user feedback to a CSV file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    header = ["Timestamp", "Name", "Company", "Email", "Feedback", "Feature Requests", "Helpful Score"]
+    
+    file_exists = os.path.exists(FEEDBACK_FILE)
+    
+    try:
+        with open(FEEDBACK_FILE, mode="a", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            if not file_exists:
+                writer.writerow(header)
+            writer.writerow([timestamp, name, company, email, feedback_text, features_text, helpful_score])
+    except Exception as e:
+        print(f"Feedback logging failed: {e}")
+
+@st.dialog("We value your feedback")
+def feedback_modal():
+    st.write("We'd love to hear your thoughts!")
+    
+    with st.form("feedback_form_modal"):
+        c1, c2 = st.columns(2)
+        with c1:
+            name_default = st.session_state.get("user_name", "")
+            name = st.text_input("Name", value=name_default)
+            email = st.text_input("Email Address")
+        with c2:
+            company = st.text_input("Company")
+        
+        st.markdown("---")
+        fb_text = st.text_area("1. Please give us your feedback", height=100)
+        features_text = st.text_area("2. What other feature you would like to have", height=80)
+        
+        st.write("3. Do you find this helpful for your marketing planning and future projects?")
+        helpful = st.radio("Helpful?", ["Yes, very helpful", "Somewhat", "No"], label_visibility="collapsed")
+        
+        submitted = st.form_submit_button("Submit Feedback", use_container_width=True)
+        
+        if submitted:
+            log_feedback(name, company, email, fb_text, features_text, helpful)
+            st.success("Thank you very much for your feedback!")
+
+def check_login():
+    """Simple gatekeeper ensuring user enters name."""
+    if st.session_state.get("authenticated"):
+        return
+
+    st.markdown(
+        """
+        <div style='text-align: center; margin-top: 100px;'>
+            <h1>🔐 Beta Access</h1>
+            <p style='color: #A9B4C7;'>Please enter your details to access the DevIntel Dashboard.</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    c1, c2, c3 = st.columns([1, 2, 1])
+    with c2:
+        with st.form("login_form"):
+            name = st.text_input("Name", placeholder="E.g. John Doe")
+            org = st.text_input("Organization (Optional)", placeholder="E.g. Company XYZ")
+            submitted = st.form_submit_button("Enter Dashboard", use_container_width=True)
+            
+            if submitted:
+                if name.strip():
+                    log_access(name, org)
+                    st.session_state["authenticated"] = True
+                    st.session_state["user_name"] = name
+                    st.rerun()
+                else:
+                    st.error("Please enter your name.")
+
+    st.stop() # Stop execution if not authenticated
+
 # =========================================================
 # STATE
 # =========================================================
+check_login()
+
 if "selected_pemaju" not in st.session_state:
     st.session_state.selected_pemaju = "All"
-
-apply_theme()
 
 # =========================================================
 # HELPERS
@@ -153,7 +253,7 @@ def load_all_pemaju_data(data_dir: str):
     df_house_all  = pd.concat(house_frames, ignore_index=True) if house_frames else pd.DataFrame()
 
     return df_master_all, df_units_all, df_house_all
-
+    
 def get_last_sync(df_list):
     times = []
     for df in df_list:
@@ -258,6 +358,11 @@ with st.sidebar:
     nav_items = ["Overview", "Projects", "Trends"]
     page = st.radio("Navigation", nav_items, index=0)
 
+    st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+    
+    if st.button("⭐ Give Feedback", use_container_width=True):
+        feedback_modal()
+
 # =========================================================
 # LOAD DATA
 # =========================================================
@@ -267,26 +372,6 @@ last_sync = get_last_sync([df_master_all, df_units_all, df_house_all])
 
 pemaju_list = get_pemaju_list(DATA_DIR)
 pemaju_options = ["All"] + pemaju_list
-
-# ... inside the Sidebar ...
-
-st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
-st.markdown("#### 💬 Feedback")
-
-with st.form(key='feedback_form'):
-    feedback_text = st.text_area("Found a bug or have an idea?", height=80)
-    submit_button = st.form_submit_button(label='Send to Developer')
-    
-    if submit_button and feedback_text:
-        # In a real app, save this to a DB or send an email.
-        # For now, just log it or save to a local CSV.
-        
-        # simple append to a feedback csv
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        with open("data/feedback_log.csv", "a") as f:
-            f.write(f"{timestamp},{feedback_text}\n")
-            
-        st.success("Thanks! I've received your feedback.")
 
 # =========================================================
 # UI Components
@@ -601,3 +686,9 @@ elif page == "Trends":
         except Exception as e:
             st.error(f"Error loading history data: {e}")
 
+# =========================================================
+# DEBUG PANEL
+# =========================================================
+with st.expander("🛠 Debug Panel", expanded=False):
+    st.write(f"Data Dir: {DATA_DIR}")
+    st.write(f"Projects Loaded: {len(df_projects_all)}")
