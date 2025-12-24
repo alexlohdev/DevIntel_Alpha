@@ -6,4 +6,5 @@ requests
 beautifulsoup4
 lxml
 altair
-
+sqlalchemy
+psycopg2-binary
