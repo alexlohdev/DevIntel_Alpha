@@ -7,20 +7,23 @@ from datetime import datetime
 from urllib.parse import urlparse, parse_qs
 
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import (
-    TimeoutException,
-    NoSuchElementException,
-    ElementClickInterceptedException,
-    StaleElementReferenceException,
-    InvalidSessionIdException,
-    WebDriverException
-)
 from webdriver_manager.chrome import ChromeDriverManager
+
+def get_driver():
+    chrome_options = Options()
+    # -- IMPORTANT SETTINGS FOR GITHUB ACTIONS --
+    chrome_options.add_argument("--headless")  # No GUI
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+    
+    # This installs the correct Chrome driver automatically
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
 
 
 # =========================================================
