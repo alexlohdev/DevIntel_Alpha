@@ -25,8 +25,8 @@ jobs:
       - name: Run Publisher Script
         env:
           DB_PASS: ${{ secrets.DB_PASS }}
-          DB_HOST: "aws-0-ap-southeast-1.pooler.supabase.com"
-          DB_PORT: "6543"
+          DB_HOST: "db.fvrzvqamufqfjqufxfqp.supabase.co"
+          DB_PORT: "5432"
           DB_NAME: "postgres"
-          DB_USER: "postgres.fvrzvqamufqfjqufxfqp"
+          DB_USER: "postgres"
         run: python publish_data.py
