@@ -1,0 +1,32 @@
+name: Update Supabase Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at midnight UTC
+  workflow_dispatch: # Allows manual trigger button
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install pandas sqlalchemy psycopg2-binary toml
+
+      - name: Run Publisher Script
+        env:
+          DB_PASS: ${{ secrets.DB_PASS }}
+          DB_HOST: "aws-0-ap-southeast-1.pooler.supabase.com"
+          DB_PORT: "6543"
+          DB_NAME: "postgres"
+          DB_USER: "postgres"
+        run: python publisher.py
