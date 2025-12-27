@@ -72,23 +72,18 @@ apply_theme()
 # AUTHENTICATION & LOGGING
 # =========================================================
 def log_access(name, org):
-    """Log user access to a CSV file."""
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    header = ["Timestamp", "Name", "Organization"]
-    
-    # Check if file exists to write header
-    file_exists = os.path.exists(ACCESS_LOG_FILE)
-    
+    """Log user access to Supabase."""
     try:
-        # Create directory if it doesn't exist
-        os.makedirs(os.path.dirname(ACCESS_LOG_FILE), exist_ok=True)
-        with open(ACCESS_LOG_FILE, mode="a", newline="", encoding="utf-8") as f:
-            writer = csv.writer(f)
-            if not file_exists:
-                writer.writerow(header)
-            writer.writerow([timestamp, name, org])
+        conn = st.connection("supabase", type="sql")
+        # specific SQL query to insert data
+        with conn.session as session:
+            session.execute(
+                text("INSERT INTO access_logs (user_name, organization) VALUES (:name, :org);"),
+                {"name": name, "org": org}
+            )
+            session.commit()
     except Exception as e:
-        print(f"Logging failed: {e}")
+        st.error(f"Logging failed: {e}")
 
 def check_login():
     """Simple gatekeeper ensuring user enters name."""
@@ -682,6 +677,7 @@ elif page == "Trends":
 with st.expander("🛠 Debug Panel", expanded=False):
     st.write(f"Supabase Connection Active")
     st.write(f"Projects Loaded: {len(df_projects_all)}")
+
 
 
 
