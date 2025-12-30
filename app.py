@@ -404,7 +404,7 @@ if page == "Overview":
     with c1:
         st.markdown("## Dashboard")
         st.caption("Market intelligence for Melaka property developers to benchmark sales, spot oversupply, and plan launches with confidence")
-        st.caption("Use DevIntel to compare competitor projects, track take-up rate, and find segments with high unsold stock.")
+        st.text("Use DevIntel to compare competitor projects, track take-up rate, and find segments with high unsold stock.")
     with c2:
         view_mode = st.radio("View Mode", ["Single View", "Compare Developers"], horizontal=True)
 
@@ -724,6 +724,7 @@ elif page == "Trends":
 with st.expander("🛠 Debug Panel", expanded=False):
     st.write(f"Supabase Connection Active")
     st.write(f"Projects Loaded: {len(df_projects_all)}")
+
 
 
 
