@@ -1,0 +1,198 @@
+2026-01-04 06:24:10,559 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_PADUWAN REALTY_20260104_051715.log
+2026-01-04 06:24:10,559 | INFO | ✅ Start Pemaju: PADUWAN REALTY
+2026-01-04 06:24:10,559 | INFO | ✅ Output folder: ./data/pemaju/PADUWAN REALTY
+2026-01-04 06:24:10,560 | INFO | ====== WebDriver manager ======
+2026-01-04 06:24:10,625 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:24:10,660 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:24:10,691 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 06:24:10,884 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 06:24:17,061 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 06:24:21,690 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 06:24:26,301 | INFO | ✅ Negeri = Melaka
+2026-01-04 06:24:27,894 | INFO | ✅ Kata Kunci = PADUWAN REALTY
+2026-01-04 06:24:30,210 | INFO | ✅ Clicked CARI
+2026-01-04 06:24:30,225 | INFO | ✅ Results table loaded
+2026-01-04 06:24:30,225 | INFO | ✅ Processing listing page 1
+2026-01-04 06:24:30,283 | INFO | ✅ [1] Open: 12412-11 TAMAN SATU KRUBONG PRESINT DESTAR
+2026-01-04 06:24:35,090 | INFO | ✅ Opened project detail
+2026-01-04 06:24:38,925 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:24:38,942 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:24:38,975 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:24:42,792 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:24:42,806 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:24:42,806 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:24:42,957 | INFO | ✅ Status table rows = 2
+2026-01-04 06:24:46,771 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:24:51,604 | INFO | ✅ Unit modal opened
+2026-01-04 06:24:55,491 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:25:01,909 | INFO | ✅ Unit rows scraped = 193
+2026-01-04 06:25:04,279 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:25:04,279 | INFO | ✅ Unit details scraped
+2026-01-04 06:25:05,799 | INFO | ✅ Returned to listing
+2026-01-04 06:25:05,833 | INFO | ✅ [2] Open: 12412-10 TAMAN MOLEK RESIDEN
+2026-01-04 06:25:10,642 | INFO | ✅ Opened project detail
+2026-01-04 06:25:14,468 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:25:14,487 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:25:14,524 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:25:18,338 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:25:18,352 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:25:18,352 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:25:18,439 | INFO | ✅ Status table rows = 1
+2026-01-04 06:25:22,253 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:25:27,087 | INFO | ✅ Unit modal opened
+2026-01-04 06:25:30,949 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:25:35,093 | INFO | ✅ Unit rows scraped = 126
+2026-01-04 06:25:37,452 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:25:37,452 | INFO | ✅ Unit details scraped
+2026-01-04 06:25:38,974 | INFO | ✅ Returned to listing
+2026-01-04 06:25:39,011 | INFO | ✅ [3] Open: 12412-9 TAMAN MOLEK RESIDEN
+2026-01-04 06:25:43,819 | INFO | ✅ Opened project detail
+2026-01-04 06:25:47,635 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:25:47,647 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:25:47,672 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:25:51,484 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:25:51,496 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:25:51,496 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:25:51,576 | INFO | ✅ Status table rows = 1
+2026-01-04 06:25:55,388 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:26:00,221 | INFO | ✅ Unit modal opened
+2026-01-04 06:26:04,085 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:26:09,174 | INFO | ✅ Unit rows scraped = 152
+2026-01-04 06:26:11,520 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:26:11,520 | INFO | ✅ Unit details scraped
+2026-01-04 06:26:13,038 | INFO | ✅ Returned to listing
+2026-01-04 06:26:13,074 | INFO | ✅ [4] Open: 12412-8 TAMAN MOLEK RESIDEN
+2026-01-04 06:26:17,877 | INFO | ✅ Opened project detail
+2026-01-04 06:26:21,694 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:26:21,711 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:26:21,746 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:26:25,563 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:26:25,578 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:26:25,578 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:26:25,999 | INFO | ✅ Status table rows = 6
+2026-01-04 06:26:29,813 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:26:34,651 | INFO | ✅ Unit modal opened
+2026-01-04 06:26:38,552 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:26:48,483 | INFO | ✅ Unit rows scraped = 298
+2026-01-04 06:26:50,801 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:26:50,801 | INFO | ✅ Unit details scraped
+2026-01-04 06:26:52,321 | INFO | ✅ Returned to listing
+2026-01-04 06:26:52,355 | INFO | ✅ [5] Open: 12412-7 TAMAN MOLEK RESIDEN
+2026-01-04 06:26:57,165 | INFO | ✅ Opened project detail
+2026-01-04 06:27:00,985 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:27:01,001 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:27:01,037 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:27:04,853 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:27:04,868 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:27:04,868 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:27:05,357 | INFO | ✅ Status table rows = 7
+2026-01-04 06:27:09,174 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:27:14,015 | INFO | ✅ Unit modal opened
+2026-01-04 06:27:17,935 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:27:28,212 | INFO | ✅ Unit rows scraped = 308
+2026-01-04 06:27:30,573 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:27:30,573 | INFO | ✅ Unit details scraped
+2026-01-04 06:27:32,094 | INFO | ✅ Returned to listing
+2026-01-04 06:27:32,128 | INFO | ✅ [6] Open: 12412-6 TAMAN SATU KRUBONG
+2026-01-04 06:27:36,938 | INFO | ✅ Opened project detail
+2026-01-04 06:27:40,763 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:27:40,778 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:27:40,813 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:27:44,630 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:27:44,644 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:27:44,644 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:27:45,000 | INFO | ✅ Status table rows = 5
+2026-01-04 06:27:48,813 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:27:53,656 | INFO | ✅ Unit modal opened
+2026-01-04 06:27:57,505 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:28:00,488 | INFO | ✅ Unit rows scraped = 90
+2026-01-04 06:28:02,853 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:28:02,853 | INFO | ✅ Unit details scraped
+2026-01-04 06:28:04,374 | INFO | ✅ Returned to listing
+2026-01-04 06:28:04,410 | INFO | ✅ [7] Open: 12412-5 TAMAN SATU KRUBONG, MELAKA
+2026-01-04 06:28:09,214 | INFO | ✅ Opened project detail
+2026-01-04 06:28:13,028 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:28:13,041 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:28:13,068 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:28:16,879 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:28:16,890 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:28:16,890 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:28:16,975 | INFO | ✅ Status table rows = 1
+2026-01-04 06:28:20,793 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:28:25,615 | INFO | ✅ Unit modal opened
+2026-01-04 06:28:29,533 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:28:42,019 | INFO | ✅ Unit rows scraped = 372
+2026-01-04 06:28:44,338 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:28:44,338 | INFO | ✅ Unit details scraped
+2026-01-04 06:28:45,859 | INFO | ✅ Returned to listing
+2026-01-04 06:28:45,893 | INFO | ✅ [8] Open: 12412-4 TAMAN SATU KRUBONG, MELAKA
+2026-01-04 06:28:50,703 | INFO | ✅ Opened project detail
+2026-01-04 06:28:54,528 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:28:54,543 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:28:54,578 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:28:58,392 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:28:58,406 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:28:58,406 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:28:58,493 | INFO | ✅ Status table rows = 1
+2026-01-04 06:29:02,305 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:29:07,169 | INFO | ✅ Unit modal opened
+2026-01-04 06:29:11,102 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:29:23,844 | INFO | ✅ Unit rows scraped = 378
+2026-01-04 06:29:26,164 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:29:26,164 | INFO | ✅ Unit details scraped
+2026-01-04 06:29:27,684 | INFO | ✅ Returned to listing
+2026-01-04 06:29:27,718 | INFO | ✅ [9] Open: 12412-3 TAMAN SATU KRUBONG, MELAKA.
+2026-01-04 06:29:32,527 | INFO | ✅ Opened project detail
+2026-01-04 06:29:36,356 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:29:36,372 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:29:36,407 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:29:40,221 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:29:40,236 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:29:40,236 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:29:40,322 | INFO | ✅ Status table rows = 1
+2026-01-04 06:29:44,139 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:29:48,995 | INFO | ✅ Unit modal opened
+2026-01-04 06:29:52,909 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:30:03,203 | INFO | ✅ Unit rows scraped = 305
+2026-01-04 06:30:05,537 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:30:05,537 | INFO | ✅ Unit details scraped
+2026-01-04 06:30:07,057 | INFO | ✅ Returned to listing
+2026-01-04 06:30:07,092 | INFO | ✅ [10] Open: 12412-2 TAMAN SATU KRUBONG, MELAKA
+2026-01-04 06:30:11,901 | INFO | ✅ Opened project detail
+2026-01-04 06:30:15,723 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:30:15,739 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:30:15,773 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:30:19,589 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:30:19,603 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:30:19,604 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:30:19,830 | INFO | ✅ Status table rows = 3
+2026-01-04 06:30:23,644 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:30:28,506 | INFO | ✅ Unit modal opened
+2026-01-04 06:30:32,348 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:30:33,901 | INFO | ✅ Unit rows scraped = 46
+2026-01-04 06:30:36,206 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:30:36,206 | INFO | ✅ Unit details scraped
+2026-01-04 06:30:37,724 | INFO | ✅ Returned to listing
+2026-01-04 06:30:37,758 | INFO | ✅ [11] Open: 12412-1 1 KRUBONG
+2026-01-04 06:30:42,559 | INFO | ✅ Opened project detail
+2026-01-04 06:30:46,375 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:30:46,387 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:30:46,413 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:30:50,224 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:30:50,235 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:30:50,235 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:30:50,523 | INFO | ✅ Status table rows = 4
+2026-01-04 06:30:54,338 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:30:59,157 | INFO | ✅ Unit modal opened
+2026-01-04 06:31:03,157 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:31:35,669 | INFO | ✅ Unit rows scraped = 941
+2026-01-04 06:31:38,035 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:31:38,035 | INFO | ✅ Unit details scraped
+2026-01-04 06:31:39,557 | INFO | ✅ Returned to listing
+2026-01-04 06:31:39,574 | INFO | ✅ No next page. Pagination done.
+2026-01-04 06:31:39,574 | INFO | ✅ Saved CSV: ./data/pemaju/PADUWAN REALTY/PADUWAN REALTY_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 06:31:39,575 | INFO | ✅ Saved CSV: ./data/pemaju/PADUWAN REALTY/PADUWAN REALTY_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 06:31:39,597 | INFO | ✅ Saved CSV: ./data/pemaju/PADUWAN REALTY/PADUWAN REALTY_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 06:31:39,597 | INFO | ✅ SUMMARY: Projects=11, HouseTypes=32, UnitRows=3209
+2026-01-04 06:31:39,597 | INFO | ✅ DONE pemaju scrape
+2026-01-04 06:31:39,695 | INFO | ✅ Chrome driver closed

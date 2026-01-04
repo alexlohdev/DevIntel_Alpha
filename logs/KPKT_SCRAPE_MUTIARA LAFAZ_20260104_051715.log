@@ -1,0 +1,54 @@
+2026-01-04 05:39:26,936 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_MUTIARA LAFAZ_20260104_051715.log
+2026-01-04 05:39:26,937 | INFO | ✅ Start Pemaju: MUTIARA LAFAZ
+2026-01-04 05:39:26,937 | INFO | ✅ Output folder: ./data/pemaju/MUTIARA LAFAZ
+2026-01-04 05:39:26,937 | INFO | ====== WebDriver manager ======
+2026-01-04 05:39:27,003 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:39:27,038 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:39:27,077 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 05:39:27,281 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 05:39:34,096 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 05:39:38,722 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 05:39:43,335 | INFO | ✅ Negeri = Melaka
+2026-01-04 05:39:44,931 | INFO | ✅ Kata Kunci = MUTIARA LAFAZ
+2026-01-04 05:39:47,248 | INFO | ✅ Clicked CARI
+2026-01-04 05:39:47,262 | INFO | ✅ Results table loaded
+2026-01-04 05:39:47,262 | INFO | ✅ Processing listing page 1
+2026-01-04 05:39:47,318 | INFO | ✅ [1] Open: 30825-2 TAMAN SELANDAR PERDANA
+2026-01-04 05:39:52,124 | INFO | ✅ Opened project detail
+2026-01-04 05:39:55,946 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:39:55,959 | INFO | ✅ Daerah Projek = '-'
+2026-01-04 05:39:56,000 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:39:59,812 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:39:59,826 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:39:59,826 | INFO | ✅ Status Keseluruhan = Belum Mula
+2026-01-04 05:40:00,310 | INFO | ✅ Status table rows = 7
+2026-01-04 05:40:04,120 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:40:08,946 | INFO | ✅ Unit modal opened
+2026-01-04 05:40:12,809 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:40:18,247 | INFO | ✅ Unit rows scraped = 164
+2026-01-04 05:40:20,565 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:40:20,565 | INFO | ✅ Unit details scraped
+2026-01-04 05:40:22,085 | INFO | ✅ Returned to listing
+2026-01-04 05:40:22,120 | INFO | ✅ [2] Open: 30825-1 TAMAN TAMPOI DAMAI
+2026-01-04 05:40:26,928 | INFO | ✅ Opened project detail
+2026-01-04 05:40:30,746 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:40:30,761 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:40:30,794 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:40:34,609 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:40:34,623 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:40:34,623 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 05:40:34,843 | INFO | ✅ Status table rows = 3
+2026-01-04 05:40:38,657 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:40:43,494 | INFO | ✅ Unit modal opened
+2026-01-04 05:40:47,321 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:40:48,216 | INFO | ✅ Unit rows scraped = 27
+2026-01-04 05:40:50,521 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:40:50,522 | INFO | ✅ Unit details scraped
+2026-01-04 05:40:52,038 | INFO | ✅ Returned to listing
+2026-01-04 05:40:52,055 | INFO | ✅ No next page. Pagination done.
+2026-01-04 05:40:52,055 | INFO | ✅ Saved CSV: ./data/pemaju/MUTIARA LAFAZ/MUTIARA LAFAZ_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 05:40:52,056 | INFO | ✅ Saved CSV: ./data/pemaju/MUTIARA LAFAZ/MUTIARA LAFAZ_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 05:40:52,057 | INFO | ✅ Saved CSV: ./data/pemaju/MUTIARA LAFAZ/MUTIARA LAFAZ_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 05:40:52,057 | INFO | ✅ SUMMARY: Projects=2, HouseTypes=10, UnitRows=191
+2026-01-04 05:40:52,057 | INFO | ✅ DONE pemaju scrape
+2026-01-04 05:40:52,150 | INFO | ✅ Chrome driver closed

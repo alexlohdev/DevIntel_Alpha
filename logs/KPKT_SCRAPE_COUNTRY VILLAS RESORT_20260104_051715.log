@@ -1,0 +1,150 @@
+2026-01-04 05:28:24,094 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_COUNTRY VILLAS RESORT_20260104_051715.log
+2026-01-04 05:28:24,094 | INFO | ✅ Start Pemaju: COUNTRY VILLAS RESORT
+2026-01-04 05:28:24,094 | INFO | ✅ Output folder: ./data/pemaju/COUNTRY VILLAS RESORT
+2026-01-04 05:28:24,094 | INFO | ====== WebDriver manager ======
+2026-01-04 05:28:24,159 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:28:24,196 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:28:24,232 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 05:28:24,436 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 05:28:30,344 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 05:28:34,972 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 05:28:39,585 | INFO | ✅ Negeri = Melaka
+2026-01-04 05:28:41,194 | INFO | ✅ Kata Kunci = COUNTRY VILLAS RESORT
+2026-01-04 05:28:43,510 | INFO | ✅ Clicked CARI
+2026-01-04 05:28:43,525 | INFO | ✅ Results table loaded
+2026-01-04 05:28:43,525 | INFO | ✅ Processing listing page 1
+2026-01-04 05:28:43,581 | INFO | ✅ [1] Open: 12308-8 COUNTRY VILLAS RESORT
+2026-01-04 05:28:48,395 | INFO | ✅ Opened project detail
+2026-01-04 05:28:52,222 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:28:52,237 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:28:52,270 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:28:56,087 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:28:56,101 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:28:56,101 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 05:28:56,389 | INFO | ✅ Status table rows = 4
+2026-01-04 05:29:00,204 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:29:05,034 | INFO | ✅ Unit modal opened
+2026-01-04 05:29:08,896 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:29:11,037 | INFO | ✅ Unit rows scraped = 64
+2026-01-04 05:29:13,350 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:29:13,351 | INFO | ✅ Unit details scraped
+2026-01-04 05:29:14,868 | INFO | ✅ Returned to listing
+2026-01-04 05:29:14,904 | INFO | ✅ [2] Open: 12308-7 COUNTRY VILLAS RESORT
+2026-01-04 05:29:19,707 | INFO | ✅ Opened project detail
+2026-01-04 05:29:23,522 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:29:23,534 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:29:23,559 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:29:27,370 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:29:27,382 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:29:27,382 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:29:27,462 | INFO | ✅ Status table rows = 1
+2026-01-04 05:29:31,280 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:29:36,101 | INFO | ✅ Unit modal opened
+2026-01-04 05:29:39,956 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:29:44,174 | INFO | ✅ Unit rows scraped = 128
+2026-01-04 05:29:46,482 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:29:46,482 | INFO | ✅ Unit details scraped
+2026-01-04 05:29:47,998 | INFO | ✅ Returned to listing
+2026-01-04 05:29:48,032 | INFO | ✅ [3] Open: 12308-6 COUNTRY VILLAS RESORT
+2026-01-04 05:29:52,833 | INFO | ✅ Opened project detail
+2026-01-04 05:29:56,647 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:29:56,660 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:29:56,685 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:30:00,496 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:30:00,507 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:30:00,508 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:30:00,788 | INFO | ✅ Status table rows = 4
+2026-01-04 05:30:04,604 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:30:09,431 | INFO | ✅ Unit modal opened
+2026-01-04 05:30:13,264 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:30:15,451 | INFO | ✅ Unit rows scraped = 66
+2026-01-04 05:30:17,811 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:30:17,811 | INFO | ✅ Unit details scraped
+2026-01-04 05:30:19,328 | INFO | ✅ Returned to listing
+2026-01-04 05:30:19,362 | INFO | ✅ [4] Open: 12308-5 COUNTRY VILLAS RESORT
+2026-01-04 05:30:24,163 | INFO | ✅ Opened project detail
+2026-01-04 05:30:27,978 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:30:27,991 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:30:28,016 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:30:31,828 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:30:31,840 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:30:31,840 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:30:31,919 | INFO | ✅ Status table rows = 1
+2026-01-04 05:30:35,733 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:30:40,553 | INFO | ✅ Unit modal opened
+2026-01-04 05:30:44,400 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:30:48,505 | INFO | ✅ Unit rows scraped = 124
+2026-01-04 05:30:50,846 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:30:50,846 | INFO | ✅ Unit details scraped
+2026-01-04 05:30:52,363 | INFO | ✅ Returned to listing
+2026-01-04 05:30:52,398 | INFO | ✅ [5] Open: 12308-4 COUNTRY VILLAS RESORT
+2026-01-04 05:30:57,199 | INFO | ✅ Opened project detail
+2026-01-04 05:31:01,016 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:31:01,028 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:31:01,054 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:31:04,866 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:31:04,877 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:31:04,877 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:31:04,966 | INFO | ✅ Status table rows = 1
+2026-01-04 05:31:08,781 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:31:13,603 | INFO | ✅ Unit modal opened
+2026-01-04 05:31:17,436 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:31:19,346 | INFO | ✅ Unit rows scraped = 57
+2026-01-04 05:31:21,652 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:31:21,652 | INFO | ✅ Unit details scraped
+2026-01-04 05:31:23,169 | INFO | ✅ Returned to listing
+2026-01-04 05:31:23,203 | INFO | ✅ [6] Open: 12308-3 COUNTRY VILLAS RESORT
+2026-01-04 05:31:28,004 | INFO | ✅ Opened project detail
+2026-01-04 05:31:31,819 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:31:31,832 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:31:31,857 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:31:35,666 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:31:35,677 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:31:35,677 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:31:35,763 | INFO | ✅ Status table rows = 1
+2026-01-04 05:31:39,577 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:31:44,395 | INFO | ✅ Unit modal opened
+2026-01-04 05:31:48,224 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:31:49,460 | INFO | ✅ Unit rows scraped = 37
+2026-01-04 05:31:51,818 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:31:51,819 | INFO | ✅ Unit details scraped
+2026-01-04 05:31:53,336 | INFO | ✅ Returned to listing
+2026-01-04 05:31:53,370 | INFO | ✅ [7] Open: 12308-2 PEBBLE BEACH
+2026-01-04 05:31:58,171 | INFO | ✅ Opened project detail
+2026-01-04 05:32:01,985 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:32:01,997 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:32:02,022 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:32:05,834 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:32:05,845 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:32:05,845 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:32:06,064 | INFO | ✅ Status table rows = 3
+2026-01-04 05:32:09,878 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:32:14,698 | INFO | ✅ Unit modal opened
+2026-01-04 05:32:18,548 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:32:22,802 | INFO | ✅ Unit rows scraped = 129
+2026-01-04 05:32:25,132 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:32:25,132 | INFO | ✅ Unit details scraped
+2026-01-04 05:32:26,649 | INFO | ✅ Returned to listing
+2026-01-04 05:32:26,692 | INFO | ✅ [8] Open: 12308-1 COUNTRY VILLAS RESORT SDN BHD
+2026-01-04 05:32:31,494 | INFO | ✅ Opened project detail
+2026-01-04 05:32:35,306 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:32:35,317 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 05:32:35,342 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:32:39,153 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:32:39,167 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:32:39,167 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:32:39,381 | INFO | ✅ Status table rows = 3
+2026-01-04 05:32:43,191 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:32:48,012 | INFO | ✅ Unit modal opened
+2026-01-04 05:32:51,888 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:32:58,489 | INFO | ✅ Unit rows scraped = 199
+2026-01-04 05:33:00,804 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:33:00,804 | INFO | ✅ Unit details scraped
+2026-01-04 05:33:02,325 | INFO | ✅ Returned to listing
+2026-01-04 05:33:02,342 | INFO | ✅ No next page. Pagination done.
+2026-01-04 05:33:02,342 | INFO | ✅ Saved CSV: ./data/pemaju/COUNTRY VILLAS RESORT/COUNTRY VILLAS RESORT_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 05:33:02,343 | INFO | ✅ Saved CSV: ./data/pemaju/COUNTRY VILLAS RESORT/COUNTRY VILLAS RESORT_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 05:33:02,349 | INFO | ✅ Saved CSV: ./data/pemaju/COUNTRY VILLAS RESORT/COUNTRY VILLAS RESORT_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 05:33:02,349 | INFO | ✅ SUMMARY: Projects=8, HouseTypes=18, UnitRows=804
+2026-01-04 05:33:02,349 | INFO | ✅ DONE pemaju scrape
+2026-01-04 05:33:02,445 | INFO | ✅ Chrome driver closed

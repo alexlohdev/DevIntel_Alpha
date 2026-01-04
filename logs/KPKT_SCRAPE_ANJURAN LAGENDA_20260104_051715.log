@@ -1,0 +1,102 @@
+2026-01-04 05:18:42,996 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_ANJURAN LAGENDA_20260104_051715.log
+2026-01-04 05:18:42,996 | INFO | ✅ Start Pemaju: ANJURAN LAGENDA
+2026-01-04 05:18:42,996 | INFO | ✅ Output folder: ./data/pemaju/ANJURAN LAGENDA
+2026-01-04 05:18:42,997 | INFO | ====== WebDriver manager ======
+2026-01-04 05:18:43,062 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:18:43,096 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:18:43,142 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 05:18:43,352 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 05:18:49,565 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 05:18:54,190 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 05:18:58,802 | INFO | ✅ Negeri = Melaka
+2026-01-04 05:19:00,419 | INFO | ✅ Kata Kunci = ANJURAN LAGENDA
+2026-01-04 05:19:02,736 | INFO | ✅ Clicked CARI
+2026-01-04 05:19:02,750 | INFO | ✅ Results table loaded
+2026-01-04 05:19:02,750 | INFO | ✅ Processing listing page 1
+2026-01-04 05:19:02,806 | INFO | ✅ [1] Open: 30348-5 TAMAN PENGKALAN IMPIAN FASA 1C
+2026-01-04 05:19:07,613 | INFO | ✅ Opened project detail
+2026-01-04 05:19:11,448 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:19:11,470 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:19:11,505 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:19:15,322 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:19:15,336 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:19:15,336 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 05:19:15,424 | INFO | ✅ Status table rows = 1
+2026-01-04 05:19:19,243 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:19:24,074 | INFO | ✅ Unit modal opened
+2026-01-04 05:19:27,967 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:19:34,451 | INFO | ✅ Unit rows scraped = 196
+2026-01-04 05:19:36,779 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:19:36,780 | INFO | ✅ Unit details scraped
+2026-01-04 05:19:38,300 | INFO | ✅ Returned to listing
+2026-01-04 05:19:38,334 | INFO | ✅ [2] Open: 30348-4 TAMAN PENGKALAN IMPIAN
+2026-01-04 05:19:43,142 | INFO | ✅ Opened project detail
+2026-01-04 05:19:46,959 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:19:46,974 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:19:47,000 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:19:50,812 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:19:50,826 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:19:50,826 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 05:19:51,048 | INFO | ✅ Status table rows = 3
+2026-01-04 05:19:54,862 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:19:59,701 | INFO | ✅ Unit modal opened
+2026-01-04 05:20:03,554 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:20:08,381 | INFO | ✅ Unit rows scraped = 146
+2026-01-04 05:20:10,690 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:20:10,690 | INFO | ✅ Unit details scraped
+2026-01-04 05:20:12,208 | INFO | ✅ Returned to listing
+2026-01-04 05:20:12,241 | INFO | ✅ [3] Open: 30348-3 TAMAN PENGKALAN IMPIAN
+2026-01-04 05:20:17,042 | INFO | ✅ Opened project detail
+2026-01-04 05:20:20,856 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:20:20,869 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:20:20,894 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:20:24,707 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:20:24,719 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:20:24,719 | INFO | ✅ Status Keseluruhan = Lewat
+2026-01-04 05:20:24,938 | INFO | ✅ Status table rows = 3
+2026-01-04 05:20:28,755 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:20:33,585 | INFO | ✅ Unit modal opened
+2026-01-04 05:20:37,450 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:20:44,159 | INFO | ✅ Unit rows scraped = 201
+2026-01-04 05:20:46,474 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:20:46,475 | INFO | ✅ Unit details scraped
+2026-01-04 05:20:47,996 | INFO | ✅ Returned to listing
+2026-01-04 05:20:48,031 | INFO | ✅ [4] Open: 30348-2 TAMAN PENGKALAN IMPIAN
+2026-01-04 05:20:52,841 | INFO | ✅ Opened project detail
+2026-01-04 05:20:56,667 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:20:56,683 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:20:56,717 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:21:00,534 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:21:00,548 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:21:00,548 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:21:00,702 | INFO | ✅ Status table rows = 2
+2026-01-04 05:21:04,518 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:21:09,365 | INFO | ✅ Unit modal opened
+2026-01-04 05:21:13,244 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:21:21,803 | INFO | ✅ Unit rows scraped = 260
+2026-01-04 05:21:24,161 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:21:24,161 | INFO | ✅ Unit details scraped
+2026-01-04 05:21:25,682 | INFO | ✅ Returned to listing
+2026-01-04 05:21:25,716 | INFO | ✅ [5] Open: 30348-1 TAMAN PENGKALAN IMPIAN
+2026-01-04 05:21:30,524 | INFO | ✅ Opened project detail
+2026-01-04 05:21:34,351 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:21:34,366 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 05:21:34,401 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 05:21:38,216 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 05:21:38,230 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 05:21:38,230 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 05:21:38,385 | INFO | ✅ Status table rows = 2
+2026-01-04 05:21:42,200 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 05:21:47,053 | INFO | ✅ Unit modal opened
+2026-01-04 05:21:50,905 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 05:21:56,553 | INFO | ✅ Unit rows scraped = 170
+2026-01-04 05:21:58,872 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 05:21:58,872 | INFO | ✅ Unit details scraped
+2026-01-04 05:22:00,393 | INFO | ✅ Returned to listing
+2026-01-04 05:22:00,409 | INFO | ✅ No next page. Pagination done.
+2026-01-04 05:22:00,409 | INFO | ✅ Saved CSV: ./data/pemaju/ANJURAN LAGENDA/ANJURAN LAGENDA_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 05:22:00,410 | INFO | ✅ Saved CSV: ./data/pemaju/ANJURAN LAGENDA/ANJURAN LAGENDA_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 05:22:00,417 | INFO | ✅ Saved CSV: ./data/pemaju/ANJURAN LAGENDA/ANJURAN LAGENDA_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 05:22:00,417 | INFO | ✅ SUMMARY: Projects=5, HouseTypes=11, UnitRows=973
+2026-01-04 05:22:00,417 | INFO | ✅ DONE pemaju scrape
+2026-01-04 05:22:00,510 | INFO | ✅ Chrome driver closed

@@ -1,0 +1,54 @@
+2026-01-04 07:51:50,247 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_MIDAS DIMENSI_20260104_051715.log
+2026-01-04 07:51:50,247 | INFO | ✅ Start Pemaju: MIDAS DIMENSI
+2026-01-04 07:51:50,247 | INFO | ✅ Output folder: ./data/pemaju/MIDAS DIMENSI
+2026-01-04 07:51:50,247 | INFO | ====== WebDriver manager ======
+2026-01-04 07:51:50,313 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 07:51:50,354 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 07:51:50,384 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 07:51:50,595 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 07:51:56,847 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 07:52:01,473 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 07:52:06,085 | INFO | ✅ Negeri = Melaka
+2026-01-04 07:52:07,703 | INFO | ✅ Kata Kunci = MIDAS DIMENSI
+2026-01-04 07:52:10,021 | INFO | ✅ Clicked CARI
+2026-01-04 07:52:10,035 | INFO | ✅ Results table loaded
+2026-01-04 07:52:10,036 | INFO | ✅ Processing listing page 1
+2026-01-04 07:52:10,091 | INFO | ✅ [1] Open: 14587-2 TAMAN BERTAM PUTRA
+2026-01-04 07:52:14,897 | INFO | ✅ Opened project detail
+2026-01-04 07:52:18,730 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:52:18,745 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:52:18,785 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:52:22,601 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:52:22,615 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:52:22,615 | INFO | ✅ Status Keseluruhan = Permit Telah Dibatalkan
+2026-01-04 07:52:22,702 | INFO | ✅ Status table rows = 1
+2026-01-04 07:52:26,519 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:52:31,351 | INFO | ✅ Unit modal opened
+2026-01-04 07:52:35,199 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:52:35,847 | INFO | ✅ Unit rows scraped = 19
+2026-01-04 07:52:38,175 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:52:38,175 | INFO | ✅ Unit details scraped
+2026-01-04 07:52:39,692 | INFO | ✅ Returned to listing
+2026-01-04 07:52:39,725 | INFO | ✅ [2] Open: 14587-1 TAMAN BERTAM PUTRA
+2026-01-04 07:52:44,526 | INFO | ✅ Opened project detail
+2026-01-04 07:52:48,343 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:52:48,355 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:52:48,381 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:52:52,192 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:52:52,203 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:52:52,203 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:52:52,293 | INFO | ✅ Status table rows = 1
+2026-01-04 07:52:56,111 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:53:00,929 | INFO | ✅ Unit modal opened
+2026-01-04 07:53:04,796 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:53:09,800 | INFO | ✅ Unit rows scraped = 147
+2026-01-04 07:53:12,122 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:53:12,122 | INFO | ✅ Unit details scraped
+2026-01-04 07:53:13,639 | INFO | ✅ Returned to listing
+2026-01-04 07:53:13,655 | INFO | ✅ No next page. Pagination done.
+2026-01-04 07:53:13,656 | INFO | ✅ Saved CSV: ./data/pemaju/MIDAS DIMENSI/MIDAS DIMENSI_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 07:53:13,656 | INFO | ✅ Saved CSV: ./data/pemaju/MIDAS DIMENSI/MIDAS DIMENSI_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 07:53:13,657 | INFO | ✅ Saved CSV: ./data/pemaju/MIDAS DIMENSI/MIDAS DIMENSI_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 07:53:13,657 | INFO | ✅ SUMMARY: Projects=2, HouseTypes=2, UnitRows=166
+2026-01-04 07:53:13,657 | INFO | ✅ DONE pemaju scrape
+2026-01-04 07:53:13,749 | INFO | ✅ Chrome driver closed

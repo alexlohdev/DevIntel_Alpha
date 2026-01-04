@@ -1,0 +1,842 @@
+2026-01-04 06:49:06,755 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_SCIENTEX_20260104_051715.log
+2026-01-04 06:49:06,756 | INFO | ✅ Start Pemaju: SCIENTEX
+2026-01-04 06:49:06,756 | INFO | ✅ Output folder: ./data/pemaju/SCIENTEX
+2026-01-04 06:49:06,756 | INFO | ====== WebDriver manager ======
+2026-01-04 06:49:06,822 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:49:06,856 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:49:06,891 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 06:49:07,104 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 06:49:14,377 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 06:49:19,004 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 06:49:23,615 | INFO | ✅ Negeri = Melaka
+2026-01-04 06:49:25,208 | INFO | ✅ Kata Kunci = SCIENTEX
+2026-01-04 06:49:27,524 | INFO | ✅ Clicked CARI
+2026-01-04 06:49:27,539 | INFO | ✅ Results table loaded
+2026-01-04 06:49:27,539 | INFO | ✅ Processing listing page 1
+2026-01-04 06:49:27,596 | INFO | ✅ [1] Open: 6575-52 BANDAR SCIENTEX JASIN PRESINT 2
+2026-01-04 06:49:32,404 | INFO | ✅ Opened project detail
+2026-01-04 06:49:36,232 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:49:36,247 | INFO | ✅ Daerah Projek = '-'
+2026-01-04 06:49:36,282 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:49:40,103 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:49:40,124 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:49:40,125 | INFO | ✅ Status Keseluruhan = Belum Mula
+2026-01-04 06:49:40,215 | INFO | ✅ Status table rows = 1
+2026-01-04 06:49:44,031 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:49:48,860 | INFO | ✅ Unit modal opened
+2026-01-04 06:49:52,760 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:50:04,290 | INFO | ✅ Unit rows scraped = 343
+2026-01-04 06:50:06,627 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:50:06,627 | INFO | ✅ Unit details scraped
+2026-01-04 06:50:08,145 | INFO | ✅ Returned to listing
+2026-01-04 06:50:08,182 | INFO | ✅ [2] Open: 6575-51 BANDAR SCIENTEX JASIN PRESINT 2
+2026-01-04 06:50:12,994 | INFO | ✅ Opened project detail
+2026-01-04 06:50:16,822 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:50:16,837 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:50:16,872 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:50:20,687 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:50:20,702 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:50:20,702 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:50:20,789 | INFO | ✅ Status table rows = 1
+2026-01-04 06:50:24,604 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:50:29,462 | INFO | ✅ Unit modal opened
+2026-01-04 06:50:33,366 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:50:41,129 | INFO | ✅ Unit rows scraped = 232
+2026-01-04 06:50:43,445 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:50:43,446 | INFO | ✅ Unit details scraped
+2026-01-04 06:50:44,966 | INFO | ✅ Returned to listing
+2026-01-04 06:50:45,002 | INFO | ✅ [3] Open: 6575-50 TAMAN SCIENTEX JASIN MUTIARA
+2026-01-04 06:50:49,815 | INFO | ✅ Opened project detail
+2026-01-04 06:50:53,642 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:50:53,658 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:50:53,695 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:50:57,514 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:50:57,528 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:50:57,528 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:50:57,616 | INFO | ✅ Status table rows = 1
+2026-01-04 06:51:01,429 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:51:06,278 | INFO | ✅ Unit modal opened
+2026-01-04 06:51:10,180 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:51:17,040 | INFO | ✅ Unit rows scraped = 206
+2026-01-04 06:51:19,360 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:51:19,360 | INFO | ✅ Unit details scraped
+2026-01-04 06:51:20,881 | INFO | ✅ Returned to listing
+2026-01-04 06:51:20,916 | INFO | ✅ [4] Open: 6575-49 BANDAR SCIENTEX JASIN PRESINT 2
+2026-01-04 06:51:25,724 | INFO | ✅ Opened project detail
+2026-01-04 06:51:29,550 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:51:29,566 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:51:29,600 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:51:33,416 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:51:33,430 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:51:33,431 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:51:33,517 | INFO | ✅ Status table rows = 1
+2026-01-04 06:51:37,334 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:51:42,178 | INFO | ✅ Unit modal opened
+2026-01-04 06:51:46,103 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:51:57,298 | INFO | ✅ Unit rows scraped = 333
+2026-01-04 06:51:59,653 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:51:59,654 | INFO | ✅ Unit details scraped
+2026-01-04 06:52:01,176 | INFO | ✅ Returned to listing
+2026-01-04 06:52:01,211 | INFO | ✅ [5] Open: 6575-48 BANDAR SCIENTEX JASIN PRESINT 2
+2026-01-04 06:52:06,019 | INFO | ✅ Opened project detail
+2026-01-04 06:52:09,846 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:52:09,863 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:52:09,898 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:52:13,714 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:52:13,729 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:52:13,729 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:52:13,816 | INFO | ✅ Status table rows = 1
+2026-01-04 06:52:17,634 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:52:22,483 | INFO | ✅ Unit modal opened
+2026-01-04 06:52:26,368 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:52:34,149 | INFO | ✅ Unit rows scraped = 234
+2026-01-04 06:52:36,470 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:52:36,470 | INFO | ✅ Unit details scraped
+2026-01-04 06:52:37,988 | INFO | ✅ Returned to listing
+2026-01-04 06:52:38,024 | INFO | ✅ [6] Open: 6575-47 BANDAR SCIENTEX JASIN PRESINT 1
+2026-01-04 06:52:42,825 | INFO | ✅ Opened project detail
+2026-01-04 06:52:46,650 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:52:46,665 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:52:46,700 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:52:50,514 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:52:50,529 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:52:50,529 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:52:50,616 | INFO | ✅ Status table rows = 1
+2026-01-04 06:52:54,434 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:52:59,283 | INFO | ✅ Unit modal opened
+2026-01-04 06:53:03,168 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:53:08,890 | INFO | ✅ Unit rows scraped = 170
+2026-01-04 06:53:11,207 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:53:11,208 | INFO | ✅ Unit details scraped
+2026-01-04 06:53:12,728 | INFO | ✅ Returned to listing
+2026-01-04 06:53:12,765 | INFO | ✅ [7] Open: 6575-46 BANDAR SCIENTEX JASIN PRESINT 1
+2026-01-04 06:53:17,573 | INFO | ✅ Opened project detail
+2026-01-04 06:53:21,398 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:53:21,415 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:53:21,450 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:53:25,267 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:53:25,282 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:53:25,282 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:53:25,375 | INFO | ✅ Status table rows = 1
+2026-01-04 06:53:29,190 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:53:34,029 | INFO | ✅ Unit modal opened
+2026-01-04 06:53:37,906 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:53:43,190 | INFO | ✅ Unit rows scraped = 159
+2026-01-04 06:53:45,506 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:53:45,506 | INFO | ✅ Unit details scraped
+2026-01-04 06:53:47,027 | INFO | ✅ Returned to listing
+2026-01-04 06:53:47,062 | INFO | ✅ [8] Open: 6575-45 TAMAN SCIENTEX JASIN MUTIARA
+2026-01-04 06:53:51,871 | INFO | ✅ Opened project detail
+2026-01-04 06:53:55,685 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:53:55,697 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:53:55,723 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:53:59,535 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:53:59,546 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:53:59,546 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:53:59,639 | INFO | ✅ Status table rows = 1
+2026-01-04 06:54:03,453 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:54:08,284 | INFO | ✅ Unit modal opened
+2026-01-04 06:54:12,182 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:54:21,596 | INFO | ✅ Unit rows scraped = 281
+2026-01-04 06:54:23,970 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:54:23,970 | INFO | ✅ Unit details scraped
+2026-01-04 06:54:25,491 | INFO | ✅ Returned to listing
+2026-01-04 06:54:25,529 | INFO | ✅ [9] Open: 6575-44 SCIENTEX BANDAR JASIN
+2026-01-04 06:54:30,339 | INFO | ✅ Opened project detail
+2026-01-04 06:54:34,164 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:54:34,180 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:54:34,215 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:54:38,032 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:54:38,046 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:54:38,046 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:54:38,137 | INFO | ✅ Status table rows = 1
+2026-01-04 06:54:41,952 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:54:46,802 | INFO | ✅ Unit modal opened
+2026-01-04 06:54:50,706 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:55:00,428 | INFO | ✅ Unit rows scraped = 289
+2026-01-04 06:55:02,745 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:55:02,745 | INFO | ✅ Unit details scraped
+2026-01-04 06:55:04,266 | INFO | ✅ Returned to listing
+2026-01-04 06:55:04,301 | INFO | ✅ [10] Open: 6575-43 TAMAN SCIENTEX JASIN MUTIARA
+2026-01-04 06:55:09,110 | INFO | ✅ Opened project detail
+2026-01-04 06:55:12,932 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:55:12,947 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:55:12,983 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:55:16,798 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:55:16,812 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:55:16,812 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:55:16,901 | INFO | ✅ Status table rows = 1
+2026-01-04 06:55:20,715 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:55:25,558 | INFO | ✅ Unit modal opened
+2026-01-04 06:55:29,439 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:55:36,483 | INFO | ✅ Unit rows scraped = 211
+2026-01-04 06:55:38,850 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:55:38,850 | INFO | ✅ Unit details scraped
+2026-01-04 06:55:40,371 | INFO | ✅ Returned to listing
+2026-01-04 06:55:40,406 | INFO | ✅ [11] Open: 6575-42 SCIENTEX BANDAR JASIN
+2026-01-04 06:55:45,210 | INFO | ✅ Opened project detail
+2026-01-04 06:55:49,035 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:55:49,051 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:55:49,085 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:55:52,903 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:55:52,918 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:55:52,918 | INFO | ✅ Status Keseluruhan = Lewat
+2026-01-04 06:55:53,141 | INFO | ✅ Status table rows = 3
+2026-01-04 06:55:56,967 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:56:01,806 | INFO | ✅ Unit modal opened
+2026-01-04 06:56:05,690 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:56:11,926 | INFO | ✅ Unit rows scraped = 188
+2026-01-04 06:56:14,257 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:56:14,257 | INFO | ✅ Unit details scraped
+2026-01-04 06:56:15,777 | INFO | ✅ Returned to listing
+2026-01-04 06:56:15,812 | INFO | ✅ [12] Open: 6575-41 SCIENTEX BANDAR JASIN
+2026-01-04 06:56:20,621 | INFO | ✅ Opened project detail
+2026-01-04 06:56:24,440 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:56:24,455 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:56:24,490 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:56:28,306 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:56:28,321 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:56:28,322 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:56:28,418 | INFO | ✅ Status table rows = 1
+2026-01-04 06:56:32,232 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:56:37,065 | INFO | ✅ Unit modal opened
+2026-01-04 06:56:40,930 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:56:44,873 | INFO | ✅ Unit rows scraped = 118
+2026-01-04 06:56:47,191 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:56:47,192 | INFO | ✅ Unit details scraped
+2026-01-04 06:56:48,708 | INFO | ✅ Returned to listing
+2026-01-04 06:56:48,744 | INFO | ✅ [13] Open: 6575-40 SCIENTEX BANDAR JASIN
+2026-01-04 06:56:53,546 | INFO | ✅ Opened project detail
+2026-01-04 06:56:57,361 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:56:57,373 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:56:57,398 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:57:01,210 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:57:01,222 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:57:01,222 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:57:01,302 | INFO | ✅ Status table rows = 1
+2026-01-04 06:57:05,117 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:57:09,944 | INFO | ✅ Unit modal opened
+2026-01-04 06:57:13,855 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:57:25,128 | INFO | ✅ Unit rows scraped = 336
+2026-01-04 06:57:27,439 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:57:27,439 | INFO | ✅ Unit details scraped
+2026-01-04 06:57:28,959 | INFO | ✅ Returned to listing
+2026-01-04 06:57:28,996 | INFO | ✅ [14] Open: 6575-39 TAMAN SCIENTEX JASIN MUTIARA
+2026-01-04 06:57:33,805 | INFO | ✅ Opened project detail
+2026-01-04 06:57:37,628 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:57:37,643 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:57:37,678 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:57:41,493 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:57:41,507 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:57:41,507 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:57:41,660 | INFO | ✅ Status table rows = 2
+2026-01-04 06:57:45,475 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:57:50,316 | INFO | ✅ Unit modal opened
+2026-01-04 06:57:54,197 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:58:01,011 | INFO | ✅ Unit rows scraped = 204
+2026-01-04 06:58:03,372 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:58:03,373 | INFO | ✅ Unit details scraped
+2026-01-04 06:58:04,890 | INFO | ✅ Returned to listing
+2026-01-04 06:58:04,929 | INFO | ✅ [15] Open: 6575-38 TAMAN BUKIT TAMBUN PERDANA 2
+2026-01-04 06:58:09,733 | INFO | ✅ Opened project detail
+2026-01-04 06:58:13,556 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:58:13,572 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 06:58:13,607 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:58:17,424 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:58:17,438 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:58:17,438 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:58:17,526 | INFO | ✅ Status table rows = 1
+2026-01-04 06:58:21,337 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:58:26,188 | INFO | ✅ Unit modal opened
+2026-01-04 06:58:30,089 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:58:37,255 | INFO | ✅ Unit rows scraped = 215
+2026-01-04 06:58:39,622 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:58:39,622 | INFO | ✅ Unit details scraped
+2026-01-04 06:58:41,143 | INFO | ✅ Returned to listing
+2026-01-04 06:58:41,178 | INFO | ✅ [16] Open: 6575-37 SCIENTEX BANDAR JASIN
+2026-01-04 06:58:45,986 | INFO | ✅ Opened project detail
+2026-01-04 06:58:49,810 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:58:49,826 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:58:49,861 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:58:53,677 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:58:53,692 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:58:53,692 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:58:53,779 | INFO | ✅ Status table rows = 1
+2026-01-04 06:58:57,594 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:59:02,449 | INFO | ✅ Unit modal opened
+2026-01-04 06:59:06,334 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:59:12,213 | INFO | ✅ Unit rows scraped = 175
+2026-01-04 06:59:14,528 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:59:14,528 | INFO | ✅ Unit details scraped
+2026-01-04 06:59:16,049 | INFO | ✅ Returned to listing
+2026-01-04 06:59:16,084 | INFO | ✅ [17] Open: 6575-36 SCIENTEX JASIN
+2026-01-04 06:59:20,891 | INFO | ✅ Opened project detail
+2026-01-04 06:59:24,706 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:59:24,718 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:59:24,744 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:59:28,557 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:59:28,568 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:59:28,568 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:59:28,647 | INFO | ✅ Status table rows = 1
+2026-01-04 06:59:32,466 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:59:37,290 | INFO | ✅ Unit modal opened
+2026-01-04 06:59:41,177 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:59:48,609 | INFO | ✅ Unit rows scraped = 224
+2026-01-04 06:59:50,958 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:59:50,958 | INFO | ✅ Unit details scraped
+2026-01-04 06:59:52,475 | INFO | ✅ Returned to listing
+2026-01-04 06:59:52,510 | INFO | ✅ [18] Open: 6575-35 SCIENTEX BANDAR JASIN
+2026-01-04 06:59:57,312 | INFO | ✅ Opened project detail
+2026-01-04 07:00:01,135 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:00:01,150 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:00:01,185 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:00:05,001 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:00:05,015 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:00:05,015 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:00:05,102 | INFO | ✅ Status table rows = 1
+2026-01-04 07:00:08,916 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:00:13,772 | INFO | ✅ Unit modal opened
+2026-01-04 07:00:17,654 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:00:23,070 | INFO | ✅ Unit rows scraped = 162
+2026-01-04 07:00:25,407 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:00:25,407 | INFO | ✅ Unit details scraped
+2026-01-04 07:00:26,927 | INFO | ✅ Returned to listing
+2026-01-04 07:00:26,962 | INFO | ✅ [19] Open: 6575-34 SCIENTEX JASIN
+2026-01-04 07:00:31,769 | INFO | ✅ Opened project detail
+2026-01-04 07:00:35,585 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:00:35,598 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:00:35,623 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:00:39,436 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:00:39,447 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:00:39,447 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:00:39,527 | INFO | ✅ Status table rows = 1
+2026-01-04 07:00:43,345 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:00:48,169 | INFO | ✅ Unit modal opened
+2026-01-04 07:00:52,048 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:00:59,752 | INFO | ✅ Unit rows scraped = 231
+2026-01-04 07:01:02,112 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:01:02,112 | INFO | ✅ Unit details scraped
+2026-01-04 07:01:03,629 | INFO | ✅ Returned to listing
+2026-01-04 07:01:03,664 | INFO | ✅ [20] Open: 6575-33 SCIENTEX BANDAR JASIN
+2026-01-04 07:01:08,465 | INFO | ✅ Opened project detail
+2026-01-04 07:01:12,293 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:01:12,309 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:01:12,344 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:01:16,161 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:01:16,175 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:01:16,175 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:01:16,263 | INFO | ✅ Status table rows = 1
+2026-01-04 07:01:20,080 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:01:24,937 | INFO | ✅ Unit modal opened
+2026-01-04 07:01:28,849 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:01:35,887 | INFO | ✅ Unit rows scraped = 210
+2026-01-04 07:01:38,236 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:01:38,236 | INFO | ✅ Unit details scraped
+2026-01-04 07:01:39,757 | INFO | ✅ Returned to listing
+2026-01-04 07:01:44,579 | INFO | ✅ Next page clicked
+2026-01-04 07:01:44,579 | INFO | ✅ Processing listing page 2
+2026-01-04 07:01:44,635 | INFO | ✅ [21] Open: 6575-32 TAMAN BUKIT TAMBUN PERDANA 2
+2026-01-04 07:01:49,444 | INFO | ✅ Opened project detail
+2026-01-04 07:01:53,268 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:01:53,284 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:01:53,320 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:01:57,135 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:01:57,149 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:01:57,149 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:01:57,237 | INFO | ✅ Status table rows = 1
+2026-01-04 07:02:01,051 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:02:05,910 | INFO | ✅ Unit modal opened
+2026-01-04 07:02:09,801 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:02:16,850 | INFO | ✅ Unit rows scraped = 211
+2026-01-04 07:02:19,221 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:02:19,221 | INFO | ✅ Unit details scraped
+2026-01-04 07:02:20,739 | INFO | ✅ Returned to listing
+2026-01-04 07:02:20,775 | INFO | ✅ [22] Open: 6575-31 SCIENTEX JASIN
+2026-01-04 07:02:25,580 | INFO | ✅ Opened project detail
+2026-01-04 07:02:29,406 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:02:29,422 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:02:29,457 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:02:33,274 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:02:33,288 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:02:33,288 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:02:33,376 | INFO | ✅ Status table rows = 1
+2026-01-04 07:02:37,191 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:02:42,046 | INFO | ✅ Unit modal opened
+2026-01-04 07:02:45,979 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:02:55,793 | INFO | ✅ Unit rows scraped = 291
+2026-01-04 07:02:58,116 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:02:58,116 | INFO | ✅ Unit details scraped
+2026-01-04 07:02:59,637 | INFO | ✅ Returned to listing
+2026-01-04 07:02:59,672 | INFO | ✅ [23] Open: 6575-30 SCIENTEX BANDAR JASIN
+2026-01-04 07:03:04,482 | INFO | ✅ Opened project detail
+2026-01-04 07:03:08,310 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:03:08,326 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:03:08,361 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:03:12,177 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:03:12,192 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:03:12,192 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:03:12,282 | INFO | ✅ Status table rows = 1
+2026-01-04 07:03:16,096 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:03:20,949 | INFO | ✅ Unit modal opened
+2026-01-04 07:03:24,859 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:03:32,858 | INFO | ✅ Unit rows scraped = 240
+2026-01-04 07:03:35,176 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:03:35,176 | INFO | ✅ Unit details scraped
+2026-01-04 07:03:36,697 | INFO | ✅ Returned to listing
+2026-01-04 07:03:36,732 | INFO | ✅ [24] Open: 6575-29 SCIENTEX JASIN
+2026-01-04 07:03:41,537 | INFO | ✅ Opened project detail
+2026-01-04 07:03:45,359 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:03:45,375 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:03:45,409 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:03:49,226 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:03:49,240 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:03:49,240 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:03:49,328 | INFO | ✅ Status table rows = 1
+2026-01-04 07:03:53,142 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:03:57,997 | INFO | ✅ Unit modal opened
+2026-01-04 07:04:01,882 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:04:08,201 | INFO | ✅ Unit rows scraped = 188
+2026-01-04 07:04:10,572 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:04:10,572 | INFO | ✅ Unit details scraped
+2026-01-04 07:04:12,093 | INFO | ✅ Returned to listing
+2026-01-04 07:04:12,130 | INFO | ✅ [25] Open: 6575-28 SCIENTEX BANDAR JASIN
+2026-01-04 07:04:16,938 | INFO | ✅ Opened project detail
+2026-01-04 07:04:20,755 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:04:20,767 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:04:20,793 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:04:24,605 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:04:24,616 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:04:24,617 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:04:24,697 | INFO | ✅ Status table rows = 1
+2026-01-04 07:04:28,526 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:04:33,357 | INFO | ✅ Unit modal opened
+2026-01-04 07:04:37,261 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:04:45,011 | INFO | ✅ Unit rows scraped = 232
+2026-01-04 07:04:47,360 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:04:47,360 | INFO | ✅ Unit details scraped
+2026-01-04 07:04:48,877 | INFO | ✅ Returned to listing
+2026-01-04 07:04:48,912 | INFO | ✅ [26] Open: 6575-27 TAMAN BUKIT TAMBUN PERDANA 2
+2026-01-04 07:04:53,713 | INFO | ✅ Opened project detail
+2026-01-04 07:04:57,538 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:04:57,555 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:04:57,590 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:05:01,407 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:05:01,422 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:05:01,422 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:05:01,511 | INFO | ✅ Status table rows = 1
+2026-01-04 07:05:05,326 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:05:10,186 | INFO | ✅ Unit modal opened
+2026-01-04 07:05:14,042 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:05:18,330 | INFO | ✅ Unit rows scraped = 128
+2026-01-04 07:05:20,637 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:05:20,637 | INFO | ✅ Unit details scraped
+2026-01-04 07:05:22,155 | INFO | ✅ Returned to listing
+2026-01-04 07:05:22,190 | INFO | ✅ [27] Open: 6575-26 SCIENTEX BANDAR JASIN
+2026-01-04 07:05:26,993 | INFO | ✅ Opened project detail
+2026-01-04 07:05:30,808 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:05:30,820 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:05:30,846 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:05:34,657 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:05:34,669 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:05:34,669 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:05:34,776 | INFO | ✅ Status table rows = 1
+2026-01-04 07:05:38,590 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:05:43,415 | INFO | ✅ Unit modal opened
+2026-01-04 07:05:47,296 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:05:53,704 | INFO | ✅ Unit rows scraped = 192
+2026-01-04 07:05:56,013 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:05:56,013 | INFO | ✅ Unit details scraped
+2026-01-04 07:05:57,531 | INFO | ✅ Returned to listing
+2026-01-04 07:05:57,566 | INFO | ✅ [28] Open: 6575-25 SCIENTEX JASIN
+2026-01-04 07:06:02,369 | INFO | ✅ Opened project detail
+2026-01-04 07:06:06,186 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:06:06,202 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:06:06,237 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:06:10,052 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:06:10,066 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:06:10,066 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:06:10,148 | INFO | ✅ Status table rows = 1
+2026-01-04 07:06:13,963 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:06:18,793 | INFO | ✅ Unit modal opened
+2026-01-04 07:06:22,685 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:06:30,520 | INFO | ✅ Unit rows scraped = 235
+2026-01-04 07:06:32,849 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:06:32,850 | INFO | ✅ Unit details scraped
+2026-01-04 07:06:34,370 | INFO | ✅ Returned to listing
+2026-01-04 07:06:34,406 | INFO | ✅ [29] Open: 6575-24 TAMAN BUKIT TAMBUN PERDANA 2
+2026-01-04 07:06:39,214 | INFO | ✅ Opened project detail
+2026-01-04 07:06:43,037 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:06:43,053 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:06:43,089 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:06:46,905 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:06:46,919 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:06:46,919 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:06:47,008 | INFO | ✅ Status table rows = 1
+2026-01-04 07:06:50,822 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:06:55,664 | INFO | ✅ Unit modal opened
+2026-01-04 07:06:59,553 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:07:06,666 | INFO | ✅ Unit rows scraped = 212
+2026-01-04 07:07:09,001 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:07:09,001 | INFO | ✅ Unit details scraped
+2026-01-04 07:07:10,522 | INFO | ✅ Returned to listing
+2026-01-04 07:07:10,558 | INFO | ✅ [30] Open: 6575-23 TAMAN BUKIT TAMBUN PERDANA 2
+2026-01-04 07:07:15,366 | INFO | ✅ Opened project detail
+2026-01-04 07:07:19,182 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:07:19,195 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:07:19,220 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:07:23,032 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:07:23,044 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:07:23,044 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:07:23,126 | INFO | ✅ Status table rows = 1
+2026-01-04 07:07:26,944 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:07:31,782 | INFO | ✅ Unit modal opened
+2026-01-04 07:07:35,667 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:07:42,179 | INFO | ✅ Unit rows scraped = 196
+2026-01-04 07:07:44,485 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:07:44,485 | INFO | ✅ Unit details scraped
+2026-01-04 07:07:46,001 | INFO | ✅ Returned to listing
+2026-01-04 07:07:46,037 | INFO | ✅ [31] Open: 6575-22 SCIENTEX DURIAN TUNGGAL 2
+2026-01-04 07:07:50,852 | INFO | ✅ Opened project detail
+2026-01-04 07:07:54,668 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:07:54,680 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:07:54,705 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:07:58,517 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:07:58,529 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:07:58,529 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:07:58,612 | INFO | ✅ Status table rows = 1
+2026-01-04 07:08:02,429 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:08:07,263 | INFO | ✅ Unit modal opened
+2026-01-04 07:08:11,131 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:08:20,283 | INFO | ✅ Unit rows scraped = 271
+2026-01-04 07:08:22,602 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:08:22,602 | INFO | ✅ Unit details scraped
+2026-01-04 07:08:24,119 | INFO | ✅ Returned to listing
+2026-01-04 07:08:24,155 | INFO | ✅ [32] Open: 6575-21 SCIENTEX DURIAN TUNGGAL 2
+2026-01-04 07:08:28,957 | INFO | ✅ Opened project detail
+2026-01-04 07:08:32,777 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:08:32,790 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:08:32,815 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:08:36,630 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:08:36,641 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:08:36,642 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:08:36,723 | INFO | ✅ Status table rows = 1
+2026-01-04 07:08:40,540 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:08:45,389 | INFO | ✅ Unit modal opened
+2026-01-04 07:08:49,265 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:08:55,731 | INFO | ✅ Unit rows scraped = 192
+2026-01-04 07:08:58,103 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:08:58,103 | INFO | ✅ Unit details scraped
+2026-01-04 07:08:59,624 | INFO | ✅ Returned to listing
+2026-01-04 07:08:59,659 | INFO | ✅ [33] Open: 6575-20 SCIENTEX DURIAN TUNGGAL 2
+2026-01-04 07:09:04,467 | INFO | ✅ Opened project detail
+2026-01-04 07:09:08,283 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:09:08,295 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:09:08,321 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:09:12,133 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:09:12,144 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:09:12,145 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:09:12,229 | INFO | ✅ Status table rows = 1
+2026-01-04 07:09:16,043 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:09:20,869 | INFO | ✅ Unit modal opened
+2026-01-04 07:09:24,720 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:09:30,050 | INFO | ✅ Unit rows scraped = 159
+2026-01-04 07:09:32,359 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:09:32,359 | INFO | ✅ Unit details scraped
+2026-01-04 07:09:33,876 | INFO | ✅ Returned to listing
+2026-01-04 07:09:33,911 | INFO | ✅ [34] Open: 6575-19 SCIENTEX DURIAN TUNGGAL 2
+2026-01-04 07:09:38,712 | INFO | ✅ Opened project detail
+2026-01-04 07:09:42,527 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:09:42,541 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:09:42,567 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:09:46,380 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:09:46,391 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:09:46,391 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:09:46,471 | INFO | ✅ Status table rows = 1
+2026-01-04 07:09:50,298 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:09:55,128 | INFO | ✅ Unit modal opened
+2026-01-04 07:09:59,050 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:10:10,237 | INFO | ✅ Unit rows scraped = 331
+2026-01-04 07:10:12,599 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:10:12,599 | INFO | ✅ Unit details scraped
+2026-01-04 07:10:14,120 | INFO | ✅ Returned to listing
+2026-01-04 07:10:14,164 | INFO | ✅ [35] Open: 6575-18 SCIENTEX DURIAN TUNGGAL 2
+2026-01-04 07:10:18,992 | INFO | ✅ Opened project detail
+2026-01-04 07:10:22,818 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:10:22,834 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:10:22,868 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:10:26,686 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:10:26,700 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:10:26,701 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:10:26,788 | INFO | ✅ Status table rows = 1
+2026-01-04 07:10:30,628 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:10:35,474 | INFO | ✅ Unit modal opened
+2026-01-04 07:10:39,374 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:10:47,206 | INFO | ✅ Unit rows scraped = 234
+2026-01-04 07:10:49,524 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:10:49,525 | INFO | ✅ Unit details scraped
+2026-01-04 07:10:51,046 | INFO | ✅ Returned to listing
+2026-01-04 07:10:51,081 | INFO | ✅ [36] Open: 6575-17 TAMAN BUKIT TAMBUN PERDANA
+2026-01-04 07:10:55,885 | INFO | ✅ Opened project detail
+2026-01-04 07:10:59,710 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:10:59,725 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:10:59,761 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:11:03,577 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:11:03,592 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:11:03,592 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:11:03,682 | INFO | ✅ Status table rows = 1
+2026-01-04 07:11:07,496 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:11:12,348 | INFO | ✅ Unit modal opened
+2026-01-04 07:11:16,270 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:11:22,024 | INFO | ✅ Unit rows scraped = 172
+2026-01-04 07:11:24,332 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:11:24,332 | INFO | ✅ Unit details scraped
+2026-01-04 07:11:25,850 | INFO | ✅ Returned to listing
+2026-01-04 07:11:25,885 | INFO | ✅ [37] Open: 6575-16 TAMAN BUKIT TAMBUN PERDANA
+2026-01-04 07:11:30,686 | INFO | ✅ Opened project detail
+2026-01-04 07:11:34,505 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:11:34,517 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:11:34,542 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:11:38,356 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:11:38,367 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:11:38,367 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:11:38,448 | INFO | ✅ Status table rows = 1
+2026-01-04 07:11:42,260 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:11:47,090 | INFO | ✅ Unit modal opened
+2026-01-04 07:11:50,944 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:11:56,882 | INFO | ✅ Unit rows scraped = 176
+2026-01-04 07:11:59,189 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:11:59,189 | INFO | ✅ Unit details scraped
+2026-01-04 07:12:00,707 | INFO | ✅ Returned to listing
+2026-01-04 07:12:00,743 | INFO | ✅ [38] Open: 6575-15 TAMAN BUKIT TAMBUN PERDANA
+2026-01-04 07:12:05,557 | INFO | ✅ Opened project detail
+2026-01-04 07:12:09,374 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:12:09,386 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:12:09,411 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:12:13,223 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:12:13,235 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:12:13,235 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:12:13,315 | INFO | ✅ Status table rows = 1
+2026-01-04 07:12:17,128 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:12:21,957 | INFO | ✅ Unit modal opened
+2026-01-04 07:12:25,816 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:12:32,139 | INFO | ✅ Unit rows scraped = 189
+2026-01-04 07:12:34,479 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:12:34,479 | INFO | ✅ Unit details scraped
+2026-01-04 07:12:35,997 | INFO | ✅ Returned to listing
+2026-01-04 07:12:36,032 | INFO | ✅ [39] Open: 6575-14 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:12:40,835 | INFO | ✅ Opened project detail
+2026-01-04 07:12:44,652 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:12:44,664 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:12:44,689 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:12:48,503 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:12:48,515 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:12:48,515 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:12:48,597 | INFO | ✅ Status table rows = 1
+2026-01-04 07:12:52,410 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:12:57,246 | INFO | ✅ Unit modal opened
+2026-01-04 07:13:01,204 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:13:12,679 | INFO | ✅ Unit rows scraped = 339
+2026-01-04 07:13:14,998 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:13:14,998 | INFO | ✅ Unit details scraped
+2026-01-04 07:13:16,519 | INFO | ✅ Returned to listing
+2026-01-04 07:13:16,554 | INFO | ✅ [40] Open: 6575-13 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:13:21,363 | INFO | ✅ Opened project detail
+2026-01-04 07:13:25,188 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:13:25,204 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:13:25,238 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:13:29,054 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:13:29,069 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:13:29,069 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:13:29,158 | INFO | ✅ Status table rows = 1
+2026-01-04 07:13:32,971 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:13:37,831 | INFO | ✅ Unit modal opened
+2026-01-04 07:13:41,696 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:13:48,323 | INFO | ✅ Unit rows scraped = 198
+2026-01-04 07:13:50,674 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:13:50,674 | INFO | ✅ Unit details scraped
+2026-01-04 07:13:52,195 | INFO | ✅ Returned to listing
+2026-01-04 07:13:57,016 | INFO | ✅ Next page clicked
+2026-01-04 07:13:57,016 | INFO | ✅ Processing listing page 3
+2026-01-04 07:13:57,067 | INFO | ✅ [41] Open: 6575-12 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:14:01,873 | INFO | ✅ Opened project detail
+2026-01-04 07:14:05,689 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:14:05,700 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:14:05,725 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:14:09,536 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:14:09,547 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:14:09,547 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:14:09,627 | INFO | ✅ Status table rows = 1
+2026-01-04 07:14:13,441 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:14:18,272 | INFO | ✅ Unit modal opened
+2026-01-04 07:14:22,112 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:14:25,588 | INFO | ✅ Unit rows scraped = 104
+2026-01-04 07:14:27,935 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:14:27,936 | INFO | ✅ Unit details scraped
+2026-01-04 07:14:29,452 | INFO | ✅ Returned to listing
+2026-01-04 07:14:29,487 | INFO | ✅ [42] Open: 6575-11 SCIENTEX HEIGTHS SDN BHD
+2026-01-04 07:14:34,289 | INFO | ✅ Opened project detail
+2026-01-04 07:14:38,104 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:14:38,116 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:14:38,141 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:14:41,953 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:14:41,964 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:14:41,964 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:14:42,042 | INFO | ✅ Status table rows = 1
+2026-01-04 07:14:45,858 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:14:50,714 | INFO | ✅ Unit modal opened
+2026-01-04 07:14:54,628 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:15:02,701 | INFO | ✅ Unit rows scraped = 241
+2026-01-04 07:15:05,008 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:15:05,008 | INFO | ✅ Unit details scraped
+2026-01-04 07:15:06,525 | INFO | ✅ Returned to listing
+2026-01-04 07:15:06,560 | INFO | ✅ [43] Open: 6575-10 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:15:11,361 | INFO | ✅ Opened project detail
+2026-01-04 07:15:15,184 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:15:15,199 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:15:15,234 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:15:19,049 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:15:19,063 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:15:19,064 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:15:19,151 | INFO | ✅ Status table rows = 1
+2026-01-04 07:15:22,964 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:15:27,805 | INFO | ✅ Unit modal opened
+2026-01-04 07:15:31,686 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:15:37,325 | INFO | ✅ Unit rows scraped = 168
+2026-01-04 07:15:39,693 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:15:39,693 | INFO | ✅ Unit details scraped
+2026-01-04 07:15:41,213 | INFO | ✅ Returned to listing
+2026-01-04 07:15:41,248 | INFO | ✅ [44] Open: 6575-9 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:15:46,054 | INFO | ✅ Opened project detail
+2026-01-04 07:15:49,869 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:15:49,881 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:15:49,905 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:15:53,716 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:15:53,727 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:15:53,727 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:15:53,807 | INFO | ✅ Status table rows = 1
+2026-01-04 07:15:57,622 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:16:02,454 | INFO | ✅ Unit modal opened
+2026-01-04 07:16:06,369 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:16:13,723 | INFO | ✅ Unit rows scraped = 221
+2026-01-04 07:16:16,031 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:16:16,031 | INFO | ✅ Unit details scraped
+2026-01-04 07:16:17,549 | INFO | ✅ Returned to listing
+2026-01-04 07:16:17,584 | INFO | ✅ [45] Open: 6575-8 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:16:22,387 | INFO | ✅ Opened project detail
+2026-01-04 07:16:26,203 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:16:26,216 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:16:26,242 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:16:30,056 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:16:30,068 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:16:30,068 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:16:30,149 | INFO | ✅ Status table rows = 1
+2026-01-04 07:16:33,962 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:16:38,805 | INFO | ✅ Unit modal opened
+2026-01-04 07:16:42,649 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:16:46,579 | INFO | ✅ Unit rows scraped = 116
+2026-01-04 07:16:48,938 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:16:48,938 | INFO | ✅ Unit details scraped
+2026-01-04 07:16:50,455 | INFO | ✅ Returned to listing
+2026-01-04 07:16:50,490 | INFO | ✅ [46] Open: 6575-7 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:16:55,291 | INFO | ✅ Opened project detail
+2026-01-04 07:16:59,107 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:16:59,120 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:16:59,144 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:17:02,955 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:17:02,966 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:17:02,966 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:17:03,113 | INFO | ✅ Status table rows = 2
+2026-01-04 07:17:06,929 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:17:11,755 | INFO | ✅ Unit modal opened
+2026-01-04 07:17:15,677 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:17:26,351 | INFO | ✅ Unit rows scraped = 318
+2026-01-04 07:17:28,665 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:17:28,666 | INFO | ✅ Unit details scraped
+2026-01-04 07:17:30,186 | INFO | ✅ Returned to listing
+2026-01-04 07:17:30,221 | INFO | ✅ [47] Open: 6575-6 SCIENTEX HEIGHTS SDN BHD
+2026-01-04 07:17:35,029 | INFO | ✅ Opened project detail
+2026-01-04 07:17:38,856 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:17:38,871 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:17:38,906 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:17:42,720 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:17:42,734 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:17:42,735 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:17:42,821 | INFO | ✅ Status table rows = 1
+2026-01-04 07:17:46,638 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:17:51,513 | INFO | ✅ Unit modal opened
+2026-01-04 07:17:55,424 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:18:02,909 | INFO | ✅ Unit rows scraped = 224
+2026-01-04 07:18:05,260 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:18:05,260 | INFO | ✅ Unit details scraped
+2026-01-04 07:18:06,778 | INFO | ✅ Returned to listing
+2026-01-04 07:18:06,813 | INFO | ✅ [48] Open: 6575-5 THE HEIGHTS RESIDENCE - TAMAN MUZAFFAR HEIGHTS
+2026-01-04 07:18:11,616 | INFO | ✅ Opened project detail
+2026-01-04 07:18:15,439 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:18:15,455 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:18:15,492 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:18:19,309 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:18:19,323 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:18:19,323 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:18:19,610 | INFO | ✅ Status table rows = 4
+2026-01-04 07:18:23,424 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:18:28,263 | INFO | ✅ Unit modal opened
+2026-01-04 07:18:32,301 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:18:58,947 | INFO | ✅ Unit rows scraped = 769
+2026-01-04 07:19:01,329 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:19:01,329 | INFO | ✅ Unit details scraped
+2026-01-04 07:19:02,896 | INFO | ✅ Returned to listing
+2026-01-04 07:19:02,932 | INFO | ✅ [49] Open: 6575-4 TAMAN MUZAFFAR HEIGHTS
+2026-01-04 07:19:07,741 | INFO | ✅ Opened project detail
+2026-01-04 07:19:11,570 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:19:11,586 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:19:11,620 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:19:15,437 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:19:15,451 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:19:15,451 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:19:15,846 | INFO | ✅ Status table rows = 5
+2026-01-04 07:19:19,660 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:19:24,553 | INFO | ✅ Unit modal opened
+2026-01-04 07:19:28,425 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:19:35,986 | INFO | ✅ Unit rows scraped = 226
+2026-01-04 07:19:38,346 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:19:38,346 | INFO | ✅ Unit details scraped
+2026-01-04 07:19:39,867 | INFO | ✅ Returned to listing
+2026-01-04 07:19:39,903 | INFO | ✅ [50] Open: 6575-3 TAMAN MUZAFFAR HEIGHTS
+2026-01-04 07:19:44,706 | INFO | ✅ Opened project detail
+2026-01-04 07:19:48,521 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:19:48,532 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:19:48,558 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:19:52,369 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:19:52,380 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:19:52,380 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:19:52,661 | INFO | ✅ Status table rows = 4
+2026-01-04 07:19:56,470 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:20:01,300 | INFO | ✅ Unit modal opened
+2026-01-04 07:20:05,168 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:20:12,788 | INFO | ✅ Unit rows scraped = 226
+2026-01-04 07:20:15,103 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:20:15,103 | INFO | ✅ Unit details scraped
+2026-01-04 07:20:16,621 | INFO | ✅ Returned to listing
+2026-01-04 07:20:16,657 | INFO | ✅ [51] Open: 6575-1 TAMAN MUZAFFAR HEIGHTS
+2026-01-04 07:20:21,460 | INFO | ✅ Opened project detail
+2026-01-04 07:20:25,272 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:20:25,282 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:20:25,309 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:20:29,121 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:20:29,132 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:20:29,132 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:20:29,584 | INFO | ✅ Status table rows = 6
+2026-01-04 07:20:33,396 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:20:38,225 | INFO | ✅ Unit modal opened
+2026-01-04 07:20:42,087 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:20:49,651 | INFO | ✅ Unit rows scraped = 226
+2026-01-04 07:20:51,960 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:20:51,960 | INFO | ✅ Unit details scraped
+2026-01-04 07:20:53,477 | INFO | ✅ Returned to listing
+2026-01-04 07:20:53,493 | INFO | ✅ No next page. Pagination done.
+2026-01-04 07:20:53,494 | INFO | ✅ Saved CSV: ./data/pemaju/SCIENTEX/SCIENTEX_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 07:20:53,495 | INFO | ✅ Saved CSV: ./data/pemaju/SCIENTEX/SCIENTEX_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 07:20:53,577 | INFO | ✅ Saved CSV: ./data/pemaju/SCIENTEX/SCIENTEX_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 07:20:53,577 | INFO | ✅ SUMMARY: Projects=51, HouseTypes=70, UnitRows=11746
+2026-01-04 07:20:53,577 | INFO | ✅ DONE pemaju scrape
+2026-01-04 07:20:53,690 | INFO | ✅ Chrome driver closed

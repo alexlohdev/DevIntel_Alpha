@@ -1,0 +1,552 @@
+2026-01-04 07:28:20,827 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_TELADAN_20260104_051715.log
+2026-01-04 07:28:20,827 | INFO | ✅ Start Pemaju: TELADAN
+2026-01-04 07:28:20,827 | INFO | ✅ Output folder: ./data/pemaju/TELADAN
+2026-01-04 07:28:20,827 | INFO | ====== WebDriver manager ======
+2026-01-04 07:28:20,892 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 07:28:20,927 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 07:28:20,957 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 07:28:21,165 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 07:28:27,059 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 07:28:31,693 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 07:28:36,308 | INFO | ✅ Negeri = Melaka
+2026-01-04 07:28:37,898 | INFO | ✅ Kata Kunci = TELADAN
+2026-01-04 07:28:40,215 | INFO | ✅ Clicked CARI
+2026-01-04 07:28:40,229 | INFO | ✅ Results table loaded
+2026-01-04 07:28:40,230 | INFO | ✅ Processing listing page 1
+2026-01-04 07:28:40,288 | INFO | ✅ [1] Open: 7305-39 TAMAN DESA BERTAM
+2026-01-04 07:28:45,097 | INFO | ✅ Opened project detail
+2026-01-04 07:28:48,924 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:28:48,938 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:28:48,972 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:28:52,785 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:28:52,799 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:28:52,799 | INFO | ✅ Status Keseluruhan = Belum Mula
+2026-01-04 07:28:53,029 | INFO | ✅ Status table rows = 3
+2026-01-04 07:28:56,843 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:29:01,669 | INFO | ✅ Unit modal opened
+2026-01-04 07:29:05,570 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:29:15,207 | INFO | ✅ Unit rows scraped = 285
+2026-01-04 07:29:17,527 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:29:17,527 | INFO | ✅ Unit details scraped
+2026-01-04 07:29:19,047 | INFO | ✅ Returned to listing
+2026-01-04 07:29:19,083 | INFO | ✅ [2] Open: 7305-38 TAMAN BERTAM HEIGHTS
+2026-01-04 07:29:23,896 | INFO | ✅ Opened project detail
+2026-01-04 07:29:27,727 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:29:27,743 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:29:27,778 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:29:31,593 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:29:31,608 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:29:31,608 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 07:29:31,764 | INFO | ✅ Status table rows = 2
+2026-01-04 07:29:35,578 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:29:40,431 | INFO | ✅ Unit modal opened
+2026-01-04 07:29:44,372 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:29:58,562 | INFO | ✅ Unit rows scraped = 419
+2026-01-04 07:30:00,884 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:30:00,884 | INFO | ✅ Unit details scraped
+2026-01-04 07:30:02,406 | INFO | ✅ Returned to listing
+2026-01-04 07:30:02,442 | INFO | ✅ [3] Open: 7305-37 TAMAN IMPIANA KESANG
+2026-01-04 07:30:07,255 | INFO | ✅ Opened project detail
+2026-01-04 07:30:11,081 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:30:11,096 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:30:11,132 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:30:14,949 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:30:14,963 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:30:14,964 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 07:30:15,122 | INFO | ✅ Status table rows = 2
+2026-01-04 07:30:18,941 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:30:23,801 | INFO | ✅ Unit modal opened
+2026-01-04 07:30:27,670 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:30:31,938 | INFO | ✅ Unit rows scraped = 129
+2026-01-04 07:30:34,265 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:30:34,265 | INFO | ✅ Unit details scraped
+2026-01-04 07:30:35,786 | INFO | ✅ Returned to listing
+2026-01-04 07:30:35,821 | INFO | ✅ [4] Open: 7305-36 TAMAN IMPIANA KESANG
+2026-01-04 07:30:40,630 | INFO | ✅ Opened project detail
+2026-01-04 07:30:44,446 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:30:44,459 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:30:44,483 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:30:48,296 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:30:48,307 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:30:48,307 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 07:30:48,455 | INFO | ✅ Status table rows = 2
+2026-01-04 07:30:52,278 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:30:57,105 | INFO | ✅ Unit modal opened
+2026-01-04 07:31:00,960 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:31:06,417 | INFO | ✅ Unit rows scraped = 163
+2026-01-04 07:31:08,779 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:31:08,779 | INFO | ✅ Unit details scraped
+2026-01-04 07:31:10,296 | INFO | ✅ Returned to listing
+2026-01-04 07:31:10,331 | INFO | ✅ [5] Open: 7305-35 RUMAH BANDAR TAMAN BERTAM HEIGHTS
+2026-01-04 07:31:15,131 | INFO | ✅ Opened project detail
+2026-01-04 07:31:18,954 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:31:18,970 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:31:19,005 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:31:22,822 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:31:22,837 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:31:22,837 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 07:31:22,927 | INFO | ✅ Status table rows = 1
+2026-01-04 07:31:26,741 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:31:31,571 | INFO | ✅ Unit modal opened
+2026-01-04 07:31:35,457 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:31:42,486 | INFO | ✅ Unit rows scraped = 211
+2026-01-04 07:31:44,803 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:31:44,803 | INFO | ✅ Unit details scraped
+2026-01-04 07:31:46,324 | INFO | ✅ Returned to listing
+2026-01-04 07:31:46,359 | INFO | ✅ [6] Open: 7305-34 TAMAN BERTAM HEIGHTS
+2026-01-04 07:31:51,168 | INFO | ✅ Opened project detail
+2026-01-04 07:31:54,993 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:31:55,009 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:31:55,043 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:31:58,860 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:31:58,874 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:31:58,874 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 07:31:59,031 | INFO | ✅ Status table rows = 2
+2026-01-04 07:32:02,845 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:32:07,694 | INFO | ✅ Unit modal opened
+2026-01-04 07:32:11,613 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:32:23,435 | INFO | ✅ Unit rows scraped = 352
+2026-01-04 07:32:25,809 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:32:25,809 | INFO | ✅ Unit details scraped
+2026-01-04 07:32:27,331 | INFO | ✅ Returned to listing
+2026-01-04 07:32:27,366 | INFO | ✅ [7] Open: 7305-33 TAMAN IMPIANA KESANG
+2026-01-04 07:32:32,175 | INFO | ✅ Opened project detail
+2026-01-04 07:32:36,003 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:32:36,019 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:32:36,054 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:32:39,869 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:32:39,884 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:32:39,884 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:32:40,038 | INFO | ✅ Status table rows = 2
+2026-01-04 07:32:43,853 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:32:48,706 | INFO | ✅ Unit modal opened
+2026-01-04 07:32:52,589 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:33:00,046 | INFO | ✅ Unit rows scraped = 224
+2026-01-04 07:33:02,384 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:33:02,384 | INFO | ✅ Unit details scraped
+2026-01-04 07:33:03,905 | INFO | ✅ Returned to listing
+2026-01-04 07:33:03,940 | INFO | ✅ [8] Open: 7305-32 TAMAN BERTAM HEIGHTS
+2026-01-04 07:33:08,750 | INFO | ✅ Opened project detail
+2026-01-04 07:33:12,573 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:33:12,589 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:33:12,625 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:33:16,443 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:33:16,457 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:33:16,458 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:33:16,616 | INFO | ✅ Status table rows = 2
+2026-01-04 07:33:20,433 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:33:25,288 | INFO | ✅ Unit modal opened
+2026-01-04 07:33:29,239 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:33:44,164 | INFO | ✅ Unit rows scraped = 442
+2026-01-04 07:33:46,497 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:33:46,497 | INFO | ✅ Unit details scraped
+2026-01-04 07:33:48,017 | INFO | ✅ Returned to listing
+2026-01-04 07:33:48,052 | INFO | ✅ [9] Open: 7305-31 TAMAN IMPIANA KESANG
+2026-01-04 07:33:52,862 | INFO | ✅ Opened project detail
+2026-01-04 07:33:56,689 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:33:56,704 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 07:33:56,740 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:34:00,557 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:34:00,570 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:34:00,571 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:34:00,794 | INFO | ✅ Status table rows = 3
+2026-01-04 07:34:04,607 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:34:09,464 | INFO | ✅ Unit modal opened
+2026-01-04 07:34:13,410 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:34:28,016 | INFO | ✅ Unit rows scraped = 433
+2026-01-04 07:34:30,337 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:34:30,337 | INFO | ✅ Unit details scraped
+2026-01-04 07:34:31,858 | INFO | ✅ Returned to listing
+2026-01-04 07:34:31,893 | INFO | ✅ [10] Open: 7305-30 TAMAN DESA BERTAM
+2026-01-04 07:34:36,703 | INFO | ✅ Opened project detail
+2026-01-04 07:34:40,535 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:34:40,551 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:34:40,585 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:34:44,401 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:34:44,415 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:34:44,415 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:34:44,505 | INFO | ✅ Status table rows = 1
+2026-01-04 07:34:48,319 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:34:53,183 | INFO | ✅ Unit modal opened
+2026-01-04 07:34:57,087 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:35:06,403 | INFO | ✅ Unit rows scraped = 273
+2026-01-04 07:35:08,776 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:35:08,776 | INFO | ✅ Unit details scraped
+2026-01-04 07:35:10,297 | INFO | ✅ Returned to listing
+2026-01-04 07:35:10,332 | INFO | ✅ [11] Open: 7305-29 TAMAN BERTAM HEIGHTS
+2026-01-04 07:35:15,142 | INFO | ✅ Opened project detail
+2026-01-04 07:35:18,965 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:35:18,981 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:35:19,016 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:35:22,831 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:35:22,846 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:35:22,846 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:35:23,001 | INFO | ✅ Status table rows = 2
+2026-01-04 07:35:26,815 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:35:31,660 | INFO | ✅ Unit modal opened
+2026-01-04 07:35:35,560 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:35:44,818 | INFO | ✅ Unit rows scraped = 276
+2026-01-04 07:35:47,161 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:35:47,161 | INFO | ✅ Unit details scraped
+2026-01-04 07:35:48,682 | INFO | ✅ Returned to listing
+2026-01-04 07:35:48,717 | INFO | ✅ [12] Open: 7305-28 TAMAN DESA BERTAM
+2026-01-04 07:35:53,527 | INFO | ✅ Opened project detail
+2026-01-04 07:35:57,350 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:35:57,366 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:35:57,400 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:36:01,217 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:36:01,231 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:36:01,232 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:36:01,476 | INFO | ✅ Status table rows = 3
+2026-01-04 07:36:05,295 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:36:10,136 | INFO | ✅ Unit modal opened
+2026-01-04 07:36:14,099 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:36:30,535 | INFO | ✅ Unit rows scraped = 486
+2026-01-04 07:36:32,912 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:36:32,912 | INFO | ✅ Unit details scraped
+2026-01-04 07:36:34,432 | INFO | ✅ Returned to listing
+2026-01-04 07:36:34,468 | INFO | ✅ [13] Open: 7305-27 TAMAN DESA BERTAM
+2026-01-04 07:36:39,278 | INFO | ✅ Opened project detail
+2026-01-04 07:36:43,106 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:36:43,122 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:36:43,157 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:36:46,976 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:36:46,991 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:36:46,991 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:36:47,295 | INFO | ✅ Status table rows = 4
+2026-01-04 07:36:51,110 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:36:55,979 | INFO | ✅ Unit modal opened
+2026-01-04 07:36:59,926 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:37:13,005 | INFO | ✅ Unit rows scraped = 389
+2026-01-04 07:37:15,321 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:37:15,321 | INFO | ✅ Unit details scraped
+2026-01-04 07:37:16,842 | INFO | ✅ Returned to listing
+2026-01-04 07:37:16,878 | INFO | ✅ [14] Open: 7305-26 TAMAN BERTAM SETIA
+2026-01-04 07:37:21,688 | INFO | ✅ Opened project detail
+2026-01-04 07:37:25,508 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:37:25,524 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:37:25,561 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:37:29,378 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:37:29,393 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:37:29,393 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:37:29,483 | INFO | ✅ Status table rows = 1
+2026-01-04 07:37:33,297 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:37:38,159 | INFO | ✅ Unit modal opened
+2026-01-04 07:37:42,010 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:37:44,580 | INFO | ✅ Unit rows scraped = 77
+2026-01-04 07:37:46,885 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:37:46,885 | INFO | ✅ Unit details scraped
+2026-01-04 07:37:48,403 | INFO | ✅ Returned to listing
+2026-01-04 07:37:48,439 | INFO | ✅ [15] Open: 7305-25 TAMAN DESA BERTAM
+2026-01-04 07:37:53,241 | INFO | ✅ Opened project detail
+2026-01-04 07:37:57,058 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:37:57,072 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:37:57,097 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:38:00,910 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:38:00,921 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:38:00,921 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:38:01,227 | INFO | ✅ Status table rows = 4
+2026-01-04 07:38:05,040 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:38:09,860 | INFO | ✅ Unit modal opened
+2026-01-04 07:38:13,827 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:38:40,371 | INFO | ✅ Unit rows scraped = 764
+2026-01-04 07:38:42,755 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:38:42,755 | INFO | ✅ Unit details scraped
+2026-01-04 07:38:44,275 | INFO | ✅ Returned to listing
+2026-01-04 07:38:44,310 | INFO | ✅ [16] Open: 7305-24 TAMAN BERTAM SETIA
+2026-01-04 07:38:49,120 | INFO | ✅ Opened project detail
+2026-01-04 07:38:52,946 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:38:52,962 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:38:52,998 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:38:56,813 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:38:56,826 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:38:56,826 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:38:56,915 | INFO | ✅ Status table rows = 1
+2026-01-04 07:39:00,727 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:39:05,608 | INFO | ✅ Unit modal opened
+2026-01-04 07:39:09,450 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:39:10,234 | INFO | ✅ Unit rows scraped = 23
+2026-01-04 07:39:12,547 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:39:12,548 | INFO | ✅ Unit details scraped
+2026-01-04 07:39:14,064 | INFO | ✅ Returned to listing
+2026-01-04 07:39:14,102 | INFO | ✅ [17] Open: 7305-23 TAMAN BELIMBING SETIA
+2026-01-04 07:39:18,916 | INFO | ✅ Opened project detail
+2026-01-04 07:39:22,734 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:39:22,746 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:39:22,771 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:39:26,585 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:39:26,598 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:39:26,598 | INFO | ✅ Status Keseluruhan = Permit Telah Dibatalkan
+2026-01-04 07:39:26,750 | INFO | ✅ Status table rows = 2
+2026-01-04 07:39:30,566 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:39:35,387 | INFO | ✅ Unit modal opened
+2026-01-04 07:39:39,216 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:39:39,986 | INFO | ✅ Unit rows scraped = 23
+2026-01-04 07:39:42,294 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:39:42,294 | INFO | ✅ Unit details scraped
+2026-01-04 07:39:43,811 | INFO | ✅ Returned to listing
+2026-01-04 07:39:43,846 | INFO | ✅ [18] Open: 7305-22 TAMAN SERI TUAH PERMAI
+2026-01-04 07:39:48,648 | INFO | ✅ Opened project detail
+2026-01-04 07:39:52,466 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:39:52,479 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:39:52,504 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:39:56,317 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:39:56,329 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:39:56,329 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:39:56,493 | INFO | ✅ Status table rows = 2
+2026-01-04 07:40:00,310 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:40:05,131 | INFO | ✅ Unit modal opened
+2026-01-04 07:40:08,963 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:40:10,875 | INFO | ✅ Unit rows scraped = 58
+2026-01-04 07:40:13,220 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:40:13,220 | INFO | ✅ Unit details scraped
+2026-01-04 07:40:14,737 | INFO | ✅ Returned to listing
+2026-01-04 07:40:14,772 | INFO | ✅ [19] Open: 7305-21 TAMAN DESA IDAMAN
+2026-01-04 07:40:19,576 | INFO | ✅ Opened project detail
+2026-01-04 07:40:23,392 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:40:23,404 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:40:23,429 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:40:27,241 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:40:27,252 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:40:27,252 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:40:27,400 | INFO | ✅ Status table rows = 2
+2026-01-04 07:40:31,218 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:40:36,037 | INFO | ✅ Unit modal opened
+2026-01-04 07:40:39,902 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:40:45,515 | INFO | ✅ Unit rows scraped = 168
+2026-01-04 07:40:47,841 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:40:47,841 | INFO | ✅ Unit details scraped
+2026-01-04 07:40:49,358 | INFO | ✅ Returned to listing
+2026-01-04 07:40:49,394 | INFO | ✅ [20] Open: 7305-20 TAMAN BELIMBING SETIA
+2026-01-04 07:40:54,198 | INFO | ✅ Opened project detail
+2026-01-04 07:40:58,017 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:40:58,029 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:40:58,054 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:41:01,866 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:41:01,878 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:41:01,878 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:41:02,047 | INFO | ✅ Status table rows = 2
+2026-01-04 07:41:05,866 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:41:10,692 | INFO | ✅ Unit modal opened
+2026-01-04 07:41:14,588 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:41:21,170 | INFO | ✅ Unit rows scraped = 197
+2026-01-04 07:41:23,480 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:41:23,480 | INFO | ✅ Unit details scraped
+2026-01-04 07:41:24,998 | INFO | ✅ Returned to listing
+2026-01-04 07:41:29,818 | INFO | ✅ Next page clicked
+2026-01-04 07:41:29,818 | INFO | ✅ Processing listing page 2
+2026-01-04 07:41:29,872 | INFO | ✅ [21] Open: 7305-19 TAMAN KRUBONG INDAH
+2026-01-04 07:41:34,681 | INFO | ✅ Opened project detail
+2026-01-04 07:41:38,495 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:41:38,509 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:41:38,543 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:41:42,355 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:41:42,368 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:41:42,369 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:41:42,672 | INFO | ✅ Status table rows = 4
+2026-01-04 07:41:46,482 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:41:51,316 | INFO | ✅ Unit modal opened
+2026-01-04 07:41:55,193 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:41:58,793 | INFO | ✅ Unit rows scraped = 108
+2026-01-04 07:42:01,100 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:42:01,101 | INFO | ✅ Unit details scraped
+2026-01-04 07:42:02,618 | INFO | ✅ Returned to listing
+2026-01-04 07:42:02,654 | INFO | ✅ [22] Open: 7305-18 TAMAN SAUJANA SEKSYEN 4
+2026-01-04 07:42:07,455 | INFO | ✅ Opened project detail
+2026-01-04 07:42:11,269 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:42:11,279 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:42:11,305 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:42:15,116 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:42:15,127 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:42:15,127 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:42:15,299 | INFO | ✅ Status table rows = 2
+2026-01-04 07:42:19,110 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:42:23,933 | INFO | ✅ Unit modal opened
+2026-01-04 07:42:27,764 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:42:29,427 | INFO | ✅ Unit rows scraped = 50
+2026-01-04 07:42:31,735 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:42:31,735 | INFO | ✅ Unit details scraped
+2026-01-04 07:42:33,252 | INFO | ✅ Returned to listing
+2026-01-04 07:42:33,288 | INFO | ✅ [23] Open: 7305-17 TAMAN BELIMBING SETIA
+2026-01-04 07:42:38,090 | INFO | ✅ Opened project detail
+2026-01-04 07:42:41,901 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:42:41,911 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:42:41,937 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:42:45,747 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:42:45,758 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:42:45,758 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:42:45,970 | INFO | ✅ Status table rows = 3
+2026-01-04 07:42:49,780 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:42:54,597 | INFO | ✅ Unit modal opened
+2026-01-04 07:42:58,442 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:43:00,098 | INFO | ✅ Unit rows scraped = 50
+2026-01-04 07:43:02,403 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:43:02,404 | INFO | ✅ Unit details scraped
+2026-01-04 07:43:03,920 | INFO | ✅ Returned to listing
+2026-01-04 07:43:03,956 | INFO | ✅ [24] Open: 7305-16 TAMAN BERTAM SETIA
+2026-01-04 07:43:08,757 | INFO | ✅ Opened project detail
+2026-01-04 07:43:12,568 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:43:12,578 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:43:12,605 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:43:16,415 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:43:16,426 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:43:16,426 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:43:16,574 | INFO | ✅ Status table rows = 2
+2026-01-04 07:43:20,384 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:43:25,199 | INFO | ✅ Unit modal opened
+2026-01-04 07:43:29,096 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:43:37,450 | INFO | ✅ Unit rows scraped = 249
+2026-01-04 07:43:39,759 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:43:39,759 | INFO | ✅ Unit details scraped
+2026-01-04 07:43:41,276 | INFO | ✅ Returned to listing
+2026-01-04 07:43:41,312 | INFO | ✅ [25] Open: 7305-15 TAMAN DESA IDAMAN
+2026-01-04 07:43:46,115 | INFO | ✅ Opened project detail
+2026-01-04 07:43:49,935 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:43:49,948 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:43:49,984 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:43:53,798 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:43:53,811 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:43:53,812 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:43:53,901 | INFO | ✅ Status table rows = 1
+2026-01-04 07:43:57,711 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:44:02,550 | INFO | ✅ Unit modal opened
+2026-01-04 07:44:06,447 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:44:14,783 | INFO | ✅ Unit rows scraped = 249
+2026-01-04 07:44:17,102 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:44:17,102 | INFO | ✅ Unit details scraped
+2026-01-04 07:44:18,623 | INFO | ✅ Returned to listing
+2026-01-04 07:44:18,658 | INFO | ✅ [26] Open: 7305-14 TAMAN SERI RAMBAI 1
+2026-01-04 07:44:23,468 | INFO | ✅ Opened project detail
+2026-01-04 07:44:27,288 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:44:27,302 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:44:27,337 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:44:31,149 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:44:31,163 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:44:31,163 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:44:31,251 | INFO | ✅ Status table rows = 1
+2026-01-04 07:44:35,063 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:44:39,899 | INFO | ✅ Unit modal opened
+2026-01-04 07:44:43,791 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:44:52,113 | INFO | ✅ Unit rows scraped = 249
+2026-01-04 07:44:54,433 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:44:54,433 | INFO | ✅ Unit details scraped
+2026-01-04 07:44:55,954 | INFO | ✅ Returned to listing
+2026-01-04 07:44:55,991 | INFO | ✅ [27] Open: 7305-13 TAMAN BERTAM SETIA
+2026-01-04 07:45:00,800 | INFO | ✅ Opened project detail
+2026-01-04 07:45:04,621 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:45:04,635 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:45:04,670 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:45:08,486 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:45:08,500 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:45:08,501 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:45:09,077 | INFO | ✅ Status table rows = 8
+2026-01-04 07:45:12,888 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:45:17,725 | INFO | ✅ Unit modal opened
+2026-01-04 07:45:21,576 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:45:24,234 | INFO | ✅ Unit rows scraped = 79
+2026-01-04 07:45:26,573 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:45:26,573 | INFO | ✅ Unit details scraped
+2026-01-04 07:45:28,092 | INFO | ✅ Returned to listing
+2026-01-04 07:45:28,127 | INFO | ✅ [28] Open: 7305-12 TAMAN DESA IDAMAN
+2026-01-04 07:45:32,936 | INFO | ✅ Opened project detail
+2026-01-04 07:45:36,753 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:45:36,765 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:45:36,790 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:45:40,604 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:45:40,616 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:45:40,616 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 07:45:40,982 | INFO | ✅ Status table rows = 5
+2026-01-04 07:45:44,796 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:45:49,621 | INFO | ✅ Unit modal opened
+2026-01-04 07:45:53,458 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:45:54,868 | INFO | ✅ Unit rows scraped = 42
+2026-01-04 07:45:57,228 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:45:57,229 | INFO | ✅ Unit details scraped
+2026-01-04 07:45:58,745 | INFO | ✅ Returned to listing
+2026-01-04 07:45:58,779 | INFO | ✅ [29] Open: 7305-11 TAMAN BERTAM SETIA
+2026-01-04 07:46:03,579 | INFO | ✅ Opened project detail
+2026-01-04 07:46:07,392 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:46:07,402 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:46:07,429 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:46:11,240 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:46:11,251 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:46:11,251 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:46:11,725 | INFO | ✅ Status table rows = 7
+2026-01-04 07:46:15,561 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:46:20,378 | INFO | ✅ Unit modal opened
+2026-01-04 07:46:24,207 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:46:25,371 | INFO | ✅ Unit rows scraped = 34
+2026-01-04 07:46:27,677 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:46:27,677 | INFO | ✅ Unit details scraped
+2026-01-04 07:46:29,194 | INFO | ✅ Returned to listing
+2026-01-04 07:46:29,229 | INFO | ✅ [30] Open: 7305-10 TAMAN CHENG SETIA
+2026-01-04 07:46:34,031 | INFO | ✅ Opened project detail
+2026-01-04 07:46:37,842 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:46:37,853 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:46:37,879 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:46:41,689 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:46:41,701 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:46:41,701 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:46:41,941 | INFO | ✅ Status table rows = 3
+2026-01-04 07:46:45,752 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:46:50,569 | INFO | ✅ Unit modal opened
+2026-01-04 07:46:54,403 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:46:55,584 | INFO | ✅ Unit rows scraped = 34
+2026-01-04 07:46:57,889 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:46:57,889 | INFO | ✅ Unit details scraped
+2026-01-04 07:46:59,406 | INFO | ✅ Returned to listing
+2026-01-04 07:46:59,441 | INFO | ✅ [31] Open: 7305-9 TAMAN CHENG SETIA
+2026-01-04 07:47:04,243 | INFO | ✅ Opened project detail
+2026-01-04 07:47:08,054 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:47:08,065 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:47:08,092 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:47:11,905 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:47:11,917 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:47:11,917 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:47:12,705 | INFO | ✅ Status table rows = 11
+2026-01-04 07:47:16,515 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:47:21,334 | INFO | ✅ Unit modal opened
+2026-01-04 07:47:25,162 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:47:26,344 | INFO | ✅ Unit rows scraped = 34
+2026-01-04 07:47:28,649 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:47:28,649 | INFO | ✅ Unit details scraped
+2026-01-04 07:47:30,166 | INFO | ✅ Returned to listing
+2026-01-04 07:47:30,202 | INFO | ✅ [32] Open: 7305-8 TAMAN SERI BAYAN
+2026-01-04 07:47:35,002 | INFO | ✅ Opened project detail
+2026-01-04 07:47:38,813 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:47:38,824 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 07:47:38,849 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:47:42,658 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:47:42,669 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:47:42,669 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:47:42,750 | INFO | ✅ Status table rows = 1
+2026-01-04 07:47:46,561 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:47:51,377 | INFO | ✅ Unit modal opened
+2026-01-04 07:47:55,205 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:47:56,368 | INFO | ✅ Unit rows scraped = 34
+2026-01-04 07:47:58,674 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:47:58,675 | INFO | ✅ Unit details scraped
+2026-01-04 07:48:00,192 | INFO | ✅ Returned to listing
+2026-01-04 07:48:00,227 | INFO | ✅ [33] Open: 7305-6 TAMAN BUKIT CHENG
+2026-01-04 07:48:05,029 | INFO | ✅ Opened project detail
+2026-01-04 07:48:08,839 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:48:08,849 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 07:48:08,875 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 07:48:12,685 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 07:48:12,696 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 07:48:12,696 | INFO | ✅ Status Keseluruhan = Siap Dengan CFO
+2026-01-04 07:48:12,841 | INFO | ✅ Status table rows = 2
+2026-01-04 07:48:16,650 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 07:48:21,465 | INFO | ✅ Unit modal opened
+2026-01-04 07:48:25,299 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 07:48:26,484 | INFO | ✅ Unit rows scraped = 34
+2026-01-04 07:48:28,788 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 07:48:28,789 | INFO | ✅ Unit details scraped
+2026-01-04 07:48:30,306 | INFO | ✅ Returned to listing
+2026-01-04 07:48:30,322 | INFO | ✅ No next page. Pagination done.
+2026-01-04 07:48:30,323 | INFO | ✅ Saved CSV: ./data/pemaju/TELADAN/TELADAN_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 07:48:30,324 | INFO | ✅ Saved CSV: ./data/pemaju/TELADAN/TELADAN_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 07:48:30,370 | INFO | ✅ Saved CSV: ./data/pemaju/TELADAN/TELADAN_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 07:48:30,370 | INFO | ✅ SUMMARY: Projects=33, HouseTypes=93, UnitRows=6638
+2026-01-04 07:48:30,370 | INFO | ✅ DONE pemaju scrape
+2026-01-04 07:48:30,476 | INFO | ✅ Chrome driver closed

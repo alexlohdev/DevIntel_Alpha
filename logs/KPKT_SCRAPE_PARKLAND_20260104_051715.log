@@ -1,0 +1,326 @@
+2026-01-04 06:03:25,619 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_PARKLAND_20260104_051715.log
+2026-01-04 06:03:25,619 | INFO | ✅ Start Pemaju: PARKLAND
+2026-01-04 06:03:25,619 | INFO | ✅ Output folder: ./data/pemaju/PARKLAND
+2026-01-04 06:03:25,619 | INFO | ====== WebDriver manager ======
+2026-01-04 06:03:25,684 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:03:25,792 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 06:03:25,825 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 06:03:26,033 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 06:03:32,495 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 06:03:37,120 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 06:03:41,737 | INFO | ✅ Negeri = Melaka
+2026-01-04 06:03:43,329 | INFO | ✅ Kata Kunci = PARKLAND
+2026-01-04 06:03:45,645 | INFO | ✅ Clicked CARI
+2026-01-04 06:03:45,660 | INFO | ✅ Results table loaded
+2026-01-04 06:03:45,660 | INFO | ✅ Processing listing page 1
+2026-01-04 06:03:45,717 | INFO | ✅ [1] Open: 30299-1 TAMAN TEDONG PANTAI INDAH
+2026-01-04 06:03:50,525 | INFO | ✅ Opened project detail
+2026-01-04 06:03:54,356 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:03:54,371 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:03:54,405 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:03:58,221 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:03:58,235 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:03:58,235 | INFO | ✅ Status Keseluruhan = Lewat
+2026-01-04 06:03:58,391 | INFO | ✅ Status table rows = 2
+2026-01-04 06:04:02,205 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:04:07,034 | INFO | ✅ Unit modal opened
+2026-01-04 06:04:10,879 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:04:11,298 | INFO | ✅ Unit rows scraped = 12
+2026-01-04 06:04:13,609 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:04:13,610 | INFO | ✅ Unit details scraped
+2026-01-04 06:04:15,127 | INFO | ✅ Returned to listing
+2026-01-04 06:04:15,162 | INFO | ✅ [2] Open: 20165-11 BANDAR BOTANI PARKLAND PRESINT 3
+2026-01-04 06:04:19,967 | INFO | ✅ Opened project detail
+2026-01-04 06:04:23,782 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:04:23,794 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:04:23,819 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:04:27,631 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:04:27,643 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:04:27,643 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:04:27,931 | INFO | ✅ Status table rows = 4
+2026-01-04 06:04:31,753 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:04:36,571 | INFO | ✅ Unit modal opened
+2026-01-04 06:04:40,528 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:04:57,566 | INFO | ✅ Unit rows scraped = 502
+2026-01-04 06:04:59,893 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:04:59,893 | INFO | ✅ Unit details scraped
+2026-01-04 06:05:01,414 | INFO | ✅ Returned to listing
+2026-01-04 06:05:01,449 | INFO | ✅ [3] Open: 20165-10 BANDAR BOTANI PARKLAND PRESINT 2
+2026-01-04 06:05:06,258 | INFO | ✅ Opened project detail
+2026-01-04 06:05:10,087 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:05:10,102 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:05:10,139 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:05:13,958 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:05:13,974 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:05:13,974 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:05:14,345 | INFO | ✅ Status table rows = 5
+2026-01-04 06:05:18,162 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:05:23,030 | INFO | ✅ Unit modal opened
+2026-01-04 06:05:26,919 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:05:35,215 | INFO | ✅ Unit rows scraped = 247
+2026-01-04 06:05:37,531 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:05:37,531 | INFO | ✅ Unit details scraped
+2026-01-04 06:05:39,053 | INFO | ✅ Returned to listing
+2026-01-04 06:05:39,088 | INFO | ✅ [4] Open: 20165-9 RESIDENSI KOTA SYAHBANDAR
+2026-01-04 06:05:43,896 | INFO | ✅ Opened project detail
+2026-01-04 06:05:47,725 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:05:47,741 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:05:47,775 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:05:51,593 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:05:51,608 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:05:51,608 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:05:51,698 | INFO | ✅ Status table rows = 1
+2026-01-04 06:05:55,511 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:06:00,353 | INFO | ✅ Unit modal opened
+2026-01-04 06:06:04,311 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:06:20,291 | INFO | ✅ Unit rows scraped = 474
+2026-01-04 06:06:22,613 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:06:22,613 | INFO | ✅ Unit details scraped
+2026-01-04 06:06:24,134 | INFO | ✅ Returned to listing
+2026-01-04 06:06:24,171 | INFO | ✅ [5] Open: 20165-8 RESIDENSI KOTA SYAHBANDAR
+2026-01-04 06:06:28,981 | INFO | ✅ Opened project detail
+2026-01-04 06:06:32,810 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:06:32,826 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:06:32,860 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:06:36,676 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:06:36,691 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:06:36,691 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:06:36,779 | INFO | ✅ Status table rows = 1
+2026-01-04 06:06:40,593 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:06:45,453 | INFO | ✅ Unit modal opened
+2026-01-04 06:06:49,462 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:07:14,750 | INFO | ✅ Unit rows scraped = 730
+2026-01-04 06:07:17,089 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:07:17,089 | INFO | ✅ Unit details scraped
+2026-01-04 06:07:18,610 | INFO | ✅ Returned to listing
+2026-01-04 06:07:18,649 | INFO | ✅ [6] Open: 20165-7 BANDAR BOTANI PARKLAND PRESINT 2
+2026-01-04 06:07:23,458 | INFO | ✅ Opened project detail
+2026-01-04 06:07:27,288 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:07:27,303 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:07:27,338 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:07:31,156 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:07:31,171 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:07:31,171 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:07:31,532 | INFO | ✅ Status table rows = 5
+2026-01-04 06:07:35,347 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:07:40,224 | INFO | ✅ Unit modal opened
+2026-01-04 06:07:44,082 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:07:48,627 | INFO | ✅ Unit rows scraped = 136
+2026-01-04 06:07:50,940 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:07:50,940 | INFO | ✅ Unit details scraped
+2026-01-04 06:07:52,460 | INFO | ✅ Returned to listing
+2026-01-04 06:07:52,495 | INFO | ✅ [7] Open: 20165-6 BANDAR BOTANI PARKLAND PRESINT 3
+2026-01-04 06:07:57,306 | INFO | ✅ Opened project detail
+2026-01-04 06:08:01,124 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:08:01,140 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:08:01,176 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:08:04,995 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:08:05,009 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:08:05,009 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:08:05,304 | INFO | ✅ Status table rows = 4
+2026-01-04 06:08:09,121 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:08:13,956 | INFO | ✅ Unit modal opened
+2026-01-04 06:08:17,908 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:08:33,009 | INFO | ✅ Unit rows scraped = 443
+2026-01-04 06:08:35,340 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:08:35,341 | INFO | ✅ Unit details scraped
+2026-01-04 06:08:36,862 | INFO | ✅ Returned to listing
+2026-01-04 06:08:36,897 | INFO | ✅ [8] Open: 20165-5 TAMAN CHIN CHIN EMAS
+2026-01-04 06:08:41,709 | INFO | ✅ Opened project detail
+2026-01-04 06:08:45,537 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:08:45,553 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:08:45,589 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:08:49,408 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:08:49,423 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:08:49,423 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:08:49,789 | INFO | ✅ Status table rows = 5
+2026-01-04 06:08:53,604 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:08:58,458 | INFO | ✅ Unit modal opened
+2026-01-04 06:09:02,351 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:09:10,134 | INFO | ✅ Unit rows scraped = 230
+2026-01-04 06:09:12,454 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:09:12,454 | INFO | ✅ Unit details scraped
+2026-01-04 06:09:13,975 | INFO | ✅ Returned to listing
+2026-01-04 06:09:14,010 | INFO | ✅ [9] Open: 20165-4 BANDAR BOTANI PARKLAND PRESINT 4
+2026-01-04 06:09:18,819 | INFO | ✅ Opened project detail
+2026-01-04 06:09:22,643 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:09:22,658 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:09:22,693 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:09:26,508 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:09:26,522 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:09:26,522 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:09:26,676 | INFO | ✅ Status table rows = 2
+2026-01-04 06:09:30,490 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:09:35,352 | INFO | ✅ Unit modal opened
+2026-01-04 06:09:39,286 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:09:52,128 | INFO | ✅ Unit rows scraped = 382
+2026-01-04 06:09:54,476 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:09:54,476 | INFO | ✅ Unit details scraped
+2026-01-04 06:09:55,998 | INFO | ✅ Returned to listing
+2026-01-04 06:09:56,034 | INFO | ✅ [10] Open: 20165-3 BANDAR BOTANI PARKLAND PRESINT 1
+2026-01-04 06:10:00,843 | INFO | ✅ Opened project detail
+2026-01-04 06:10:04,670 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:10:04,686 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:10:04,720 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:10:08,540 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:10:08,554 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:10:08,554 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:10:09,336 | INFO | ✅ Status table rows = 11
+2026-01-04 06:10:13,152 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:10:18,009 | INFO | ✅ Unit modal opened
+2026-01-04 06:10:21,964 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:10:36,364 | INFO | ✅ Unit rows scraped = 426
+2026-01-04 06:10:38,724 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:10:38,724 | INFO | ✅ Unit details scraped
+2026-01-04 06:10:40,244 | INFO | ✅ Returned to listing
+2026-01-04 06:10:40,280 | INFO | ✅ [11] Open: 20165-2 BANDAR BOTANI PARKLAND PRESINT 4
+2026-01-04 06:10:45,093 | INFO | ✅ Opened project detail
+2026-01-04 06:10:48,918 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:10:48,935 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:10:48,970 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:10:52,787 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:10:52,801 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:10:52,802 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:10:53,021 | INFO | ✅ Status table rows = 3
+2026-01-04 06:10:56,836 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:11:01,694 | INFO | ✅ Unit modal opened
+2026-01-04 06:11:05,644 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:11:18,992 | INFO | ✅ Unit rows scraped = 394
+2026-01-04 06:11:21,314 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:11:21,315 | INFO | ✅ Unit details scraped
+2026-01-04 06:11:22,835 | INFO | ✅ Returned to listing
+2026-01-04 06:11:22,870 | INFO | ✅ [12] Open: 20165-1 BANDAR BOTANI PARKLAND PRESINT 1
+2026-01-04 06:11:27,679 | INFO | ✅ Opened project detail
+2026-01-04 06:11:31,505 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:11:31,521 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:11:31,556 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:11:35,372 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:11:35,386 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:11:35,386 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:11:35,758 | INFO | ✅ Status table rows = 5
+2026-01-04 06:11:39,574 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:11:44,439 | INFO | ✅ Unit modal opened
+2026-01-04 06:11:48,365 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:11:58,537 | INFO | ✅ Unit rows scraped = 302
+2026-01-04 06:12:00,908 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:12:00,908 | INFO | ✅ Unit details scraped
+2026-01-04 06:12:02,428 | INFO | ✅ Returned to listing
+2026-01-04 06:12:02,463 | INFO | ✅ [13] Open: 14355-1 PARKLAND RESIDENCE @ SUNGAI MELAKA
+2026-01-04 06:12:07,273 | INFO | ✅ Opened project detail
+2026-01-04 06:12:11,097 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:12:11,113 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:12:11,148 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:12:14,962 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:12:14,977 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:12:14,977 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:12:15,216 | INFO | ✅ Status table rows = 3
+2026-01-04 06:12:19,030 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:12:23,879 | INFO | ✅ Unit modal opened
+2026-01-04 06:12:27,848 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:12:44,908 | INFO | ✅ Unit rows scraped = 503
+2026-01-04 06:12:47,232 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:12:47,233 | INFO | ✅ Unit details scraped
+2026-01-04 06:12:48,754 | INFO | ✅ Returned to listing
+2026-01-04 06:12:48,790 | INFO | ✅ [14] Open: 13759-18 TAMAN SUNGAI RAMBAI JAYA
+2026-01-04 06:12:53,599 | INFO | ✅ Opened project detail
+2026-01-04 06:12:57,428 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:12:57,444 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:12:57,479 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:13:01,297 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:13:01,311 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:13:01,311 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:13:01,465 | INFO | ✅ Status table rows = 2
+2026-01-04 06:13:05,278 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:13:10,128 | INFO | ✅ Unit modal opened
+2026-01-04 06:13:13,969 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:13:14,988 | INFO | ✅ Unit rows scraped = 30
+2026-01-04 06:13:17,295 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:13:17,295 | INFO | ✅ Unit details scraped
+2026-01-04 06:13:18,811 | INFO | ✅ Returned to listing
+2026-01-04 06:13:18,846 | INFO | ✅ [15] Open: 13759-17 TAMAN DESA SUNGAI RAMBAI
+2026-01-04 06:13:23,665 | INFO | ✅ Opened project detail
+2026-01-04 06:13:27,481 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:13:27,494 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:13:27,519 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:13:31,332 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:13:31,343 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:13:31,344 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:13:31,425 | INFO | ✅ Status table rows = 1
+2026-01-04 06:13:35,240 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:13:40,060 | INFO | ✅ Unit modal opened
+2026-01-04 06:13:43,884 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:13:44,171 | INFO | ✅ Unit rows scraped = 8
+2026-01-04 06:13:46,478 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:13:46,478 | INFO | ✅ Unit details scraped
+2026-01-04 06:13:47,995 | INFO | ✅ Returned to listing
+2026-01-04 06:13:48,030 | INFO | ✅ [16] Open: 13759-15 TAMAN DESA SUNGAI RAMBAI
+2026-01-04 06:13:52,831 | INFO | ✅ Opened project detail
+2026-01-04 06:13:56,647 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:13:56,660 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:13:56,684 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:14:00,497 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:14:00,509 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:14:00,509 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:14:00,590 | INFO | ✅ Status table rows = 1
+2026-01-04 06:14:04,404 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:14:09,228 | INFO | ✅ Unit modal opened
+2026-01-04 06:14:13,056 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:14:13,274 | INFO | ✅ Unit rows scraped = 6
+2026-01-04 06:14:15,631 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:14:15,631 | INFO | ✅ Unit details scraped
+2026-01-04 06:14:17,148 | INFO | ✅ Returned to listing
+2026-01-04 06:14:17,183 | INFO | ✅ [17] Open: 13759-12 TAMAN MERLIMAU EMAS, SEKSYEN 2
+2026-01-04 06:14:21,984 | INFO | ✅ Opened project detail
+2026-01-04 06:14:25,800 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:14:25,812 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:14:25,837 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:14:29,649 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:14:29,660 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:14:29,660 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:14:29,760 | INFO | ✅ Status table rows = 1
+2026-01-04 06:14:33,579 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:14:38,398 | INFO | ✅ Unit modal opened
+2026-01-04 06:14:42,228 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:14:42,645 | INFO | ✅ Unit rows scraped = 12
+2026-01-04 06:14:44,966 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:14:44,966 | INFO | ✅ Unit details scraped
+2026-01-04 06:14:46,483 | INFO | ✅ Returned to listing
+2026-01-04 06:14:46,519 | INFO | ✅ [18] Open: 13759-11 PARKLAND CITY SDN BHD
+2026-01-04 06:14:51,321 | INFO | ✅ Opened project detail
+2026-01-04 06:14:55,142 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:14:55,155 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:14:55,180 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:14:58,993 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:14:59,005 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:14:59,005 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:14:59,154 | INFO | ✅ Status table rows = 2
+2026-01-04 06:15:02,972 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:15:07,790 | INFO | ✅ Unit modal opened
+2026-01-04 06:15:11,654 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:15:14,014 | INFO | ✅ Unit rows scraped = 71
+2026-01-04 06:15:16,344 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:15:16,344 | INFO | ✅ Unit details scraped
+2026-01-04 06:15:17,861 | INFO | ✅ Returned to listing
+2026-01-04 06:15:17,897 | INFO | ✅ [19] Open: 13759-3 TAMAN MUHIBBAH FASA 8B
+2026-01-04 06:15:22,702 | INFO | ✅ Opened project detail
+2026-01-04 06:15:26,520 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:15:26,532 | INFO | ✅ Daerah Projek = 'Jasin'
+2026-01-04 06:15:26,557 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:15:30,370 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:15:30,381 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:15:30,382 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:15:30,463 | INFO | ✅ Status table rows = 1
+2026-01-04 06:15:34,277 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:15:39,098 | INFO | ✅ Unit modal opened
+2026-01-04 06:15:42,927 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:15:43,415 | INFO | ✅ Unit rows scraped = 14
+2026-01-04 06:15:45,722 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:15:45,722 | INFO | ✅ Unit details scraped
+2026-01-04 06:15:47,238 | INFO | ✅ Returned to listing
+2026-01-04 06:15:47,254 | INFO | ✅ No next page. Pagination done.
+2026-01-04 06:15:47,255 | INFO | ✅ Saved CSV: ./data/pemaju/PARKLAND/PARKLAND_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 06:15:47,255 | INFO | ✅ Saved CSV: ./data/pemaju/PARKLAND/PARKLAND_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 06:15:47,290 | INFO | ✅ Saved CSV: ./data/pemaju/PARKLAND/PARKLAND_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 06:15:47,290 | INFO | ✅ SUMMARY: Projects=19, HouseTypes=59, UnitRows=4922
+2026-01-04 06:15:47,290 | INFO | ✅ DONE pemaju scrape
+2026-01-04 06:15:47,394 | INFO | ✅ Chrome driver closed

@@ -1,0 +1,134 @@
+2026-01-04 05:59:32,277 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_SERTA LEGA DEVELOPMENT_20260104_051715.log
+2026-01-04 05:59:32,277 | INFO | ✅ Start Pemaju: SERTA LEGA DEVELOPMENT
+2026-01-04 05:59:32,277 | INFO | ✅ Output folder: ./data/pemaju/SERTA LEGA DEVELOPMENT
+2026-01-04 05:59:32,277 | INFO | ====== WebDriver manager ======
+2026-01-04 05:59:32,343 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:59:32,380 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-04 05:59:32,412 | INFO | Driver [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.169/chromedriver-linux64/chromedriver] found in cache
+2026-01-04 05:59:32,608 | INFO | ✅ Chrome started (headless=True)
+2026-01-04 05:59:38,304 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-04 05:59:42,942 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-04 05:59:47,555 | INFO | ✅ Negeri = Melaka
+2026-01-04 05:59:49,165 | INFO | ✅ Kata Kunci = SERTA LEGA DEVELOPMENT
+2026-01-04 05:59:51,481 | INFO | ✅ Clicked CARI
+2026-01-04 05:59:51,495 | INFO | ✅ Results table loaded
+2026-01-04 05:59:51,495 | INFO | ✅ Processing listing page 1
+2026-01-04 05:59:51,551 | INFO | ✅ [1] Open: 19440-7 RESIDENSI BACHANG
+2026-01-04 05:59:56,364 | INFO | ✅ Opened project detail
+2026-01-04 06:00:00,194 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:00:00,210 | INFO | ✅ Daerah Projek = '-'
+2026-01-04 06:00:00,244 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:00:04,061 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:00:04,075 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:00:04,075 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:00:04,164 | INFO | ✅ Status table rows = 1
+2026-01-04 06:00:07,983 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:00:12,812 | INFO | ✅ Unit modal opened
+2026-01-04 06:00:16,687 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:00:21,332 | INFO | ✅ Unit rows scraped = 140
+2026-01-04 06:00:23,650 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:00:23,650 | INFO | ✅ Unit details scraped
+2026-01-04 06:00:25,170 | INFO | ✅ Returned to listing
+2026-01-04 06:00:25,204 | INFO | ✅ [2] Open: 19440-6 TAMAN TANJONG MINYAK JAYA
+2026-01-04 06:00:30,007 | INFO | ✅ Opened project detail
+2026-01-04 06:00:33,825 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:00:33,840 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:00:33,874 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:00:37,697 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:00:37,711 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:00:37,711 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-04 06:00:37,867 | INFO | ✅ Status table rows = 2
+2026-01-04 06:00:41,683 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:00:46,512 | INFO | ✅ Unit modal opened
+2026-01-04 06:00:50,361 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:00:53,377 | INFO | ✅ Unit rows scraped = 91
+2026-01-04 06:00:55,734 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:00:55,735 | INFO | ✅ Unit details scraped
+2026-01-04 06:00:57,252 | INFO | ✅ Returned to listing
+2026-01-04 06:00:57,287 | INFO | ✅ [3] Open: 19440-5 TAMAN MUHIBBAH
+2026-01-04 06:01:02,088 | INFO | ✅ Opened project detail
+2026-01-04 06:01:05,904 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:01:05,916 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:01:05,941 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:01:09,761 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:01:09,772 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:01:09,772 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:01:09,919 | INFO | ✅ Status table rows = 2
+2026-01-04 06:01:13,735 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:01:18,560 | INFO | ✅ Unit modal opened
+2026-01-04 06:01:22,395 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:01:23,397 | INFO | ✅ Unit rows scraped = 30
+2026-01-04 06:01:25,701 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:01:25,702 | INFO | ✅ Unit details scraped
+2026-01-04 06:01:27,219 | INFO | ✅ Returned to listing
+2026-01-04 06:01:27,253 | INFO | ✅ [4] Open: 19440-4 TAMAN BANDAR BARU SIMPANG EMPAT
+2026-01-04 06:01:32,054 | INFO | ✅ Opened project detail
+2026-01-04 06:01:35,872 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:01:35,885 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 06:01:35,909 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:01:39,720 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:01:39,731 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:01:39,731 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:01:39,821 | INFO | ✅ Status table rows = 1
+2026-01-04 06:01:43,639 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:01:48,458 | INFO | ✅ Unit modal opened
+2026-01-04 06:01:52,282 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:01:53,072 | INFO | ✅ Unit rows scraped = 23
+2026-01-04 06:01:55,376 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:01:55,376 | INFO | ✅ Unit details scraped
+2026-01-04 06:01:56,893 | INFO | ✅ Returned to listing
+2026-01-04 06:01:56,929 | INFO | ✅ [5] Open: 19440-3 TAMAN MUHIBBAH
+2026-01-04 06:02:01,729 | INFO | ✅ Opened project detail
+2026-01-04 06:02:05,545 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:02:05,557 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-04 06:02:05,583 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:02:09,394 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:02:09,406 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:02:09,406 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:02:09,568 | INFO | ✅ Status table rows = 2
+2026-01-04 06:02:13,387 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:02:18,204 | INFO | ✅ Unit modal opened
+2026-01-04 06:02:22,031 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:02:22,885 | INFO | ✅ Unit rows scraped = 25
+2026-01-04 06:02:25,243 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:02:25,243 | INFO | ✅ Unit details scraped
+2026-01-04 06:02:26,760 | INFO | ✅ Returned to listing
+2026-01-04 06:02:26,795 | INFO | ✅ [6] Open: 19440-2 TAMAN SRI TANJUNG DAHAN
+2026-01-04 06:02:31,598 | INFO | ✅ Opened project detail
+2026-01-04 06:02:35,412 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:02:35,423 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 06:02:35,450 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:02:39,263 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:02:39,275 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:02:39,275 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:02:39,355 | INFO | ✅ Status table rows = 1
+2026-01-04 06:02:43,171 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:02:47,989 | INFO | ✅ Unit modal opened
+2026-01-04 06:02:51,817 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:02:52,197 | INFO | ✅ Unit rows scraped = 11
+2026-01-04 06:02:54,526 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:02:54,526 | INFO | ✅ Unit details scraped
+2026-01-04 06:02:56,043 | INFO | ✅ Returned to listing
+2026-01-04 06:02:56,077 | INFO | ✅ [7] Open: 19440-1 TAMAN GADEK INDAH
+2026-01-04 06:03:00,876 | INFO | ✅ Opened project detail
+2026-01-04 06:03:04,692 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:03:04,704 | INFO | ✅ Daerah Projek = 'Alor Gajah'
+2026-01-04 06:03:04,730 | INFO | ✅ Maklumat Projek scraped
+2026-01-04 06:03:08,542 | INFO | ✅ Tab opened: status terkini projek
+2026-01-04 06:03:08,552 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-04 06:03:08,552 | INFO | ✅ Status Keseluruhan = Siap Dengan CCC
+2026-01-04 06:03:08,706 | INFO | ✅ Status table rows = 2
+2026-01-04 06:03:12,524 | INFO | ✅ Tab opened: maklumat projek
+2026-01-04 06:03:17,342 | INFO | ✅ Unit modal opened
+2026-01-04 06:03:21,167 | INFO | ✅ Clicked Paparan Senarai
+2026-01-04 06:03:21,681 | INFO | ✅ Unit rows scraped = 15
+2026-01-04 06:03:23,985 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-04 06:03:23,985 | INFO | ✅ Unit details scraped
+2026-01-04 06:03:25,500 | INFO | ✅ Returned to listing
+2026-01-04 06:03:25,516 | INFO | ✅ No next page. Pagination done.
+2026-01-04 06:03:25,517 | INFO | ✅ Saved CSV: ./data/pemaju/SERTA LEGA DEVELOPMENT/SERTA LEGA DEVELOPMENT_MELAKA_ALL_PROJECTS_20260104.csv
+2026-01-04 06:03:25,517 | INFO | ✅ Saved CSV: ./data/pemaju/SERTA LEGA DEVELOPMENT/SERTA LEGA DEVELOPMENT_MELAKA_HOUSE_TYPE_20260104.csv
+2026-01-04 06:03:25,520 | INFO | ✅ Saved CSV: ./data/pemaju/SERTA LEGA DEVELOPMENT/SERTA LEGA DEVELOPMENT_MELAKA_UNIT_DETAILS_20260104.csv
+2026-01-04 06:03:25,520 | INFO | ✅ SUMMARY: Projects=7, HouseTypes=11, UnitRows=335
+2026-01-04 06:03:25,520 | INFO | ✅ DONE pemaju scrape
+2026-01-04 06:03:25,618 | INFO | ✅ Chrome driver closed
