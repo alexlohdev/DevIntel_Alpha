@@ -1,8 +1,3 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import ElementClickInterceptedException
-
 import os
 import re
 import time
@@ -12,44 +7,41 @@ from datetime import datetime
 from urllib.parse import urlparse, parse_qs
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    TimeoutException,
+    NoSuchElementException,
+    ElementClickInterceptedException,
+    StaleElementReferenceException,
+    InvalidSessionIdException,
+    WebDriverException
+)
 from webdriver_manager.chrome import ChromeDriverManager
-
-def get_driver():
-    chrome_options = Options()
-    # -- IMPORTANT SETTINGS FOR GITHUB ACTIONS --
-    chrome_options.add_argument("--headless")  # No GUI
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
-    
-    # This installs the correct Chrome driver automatically
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    return driver
 
 
 # =========================================================
 # CONFIG (EDIT THESE VALUES ONLY)
 # =========================================================
 CONFIG = {
-    "HEADLESS": True,   # True = hidden browser, False = visible
+    "HEADLESS": False,   # True = hidden browser, False = visible
     "JENIS_CARIAN": "Pemaju",
     "NEGERI": "Melaka",
     "BASE_URL": "https://teduh.kpkt.gov.my/semakan-status-kemajuan",
 
     # Timing
     "DELAY_CLICK": 1.5,
-    "DELAY_PAGE_LOAD": 2.5,
+    "DELAY_PAGE_LOAD": 3.5,
     "MAX_WAIT_SECONDS": 30,
 
     # Input list
     "PEMAJU_LIST_TXT": "pemaju_list.txt",
 
     # Output Root
-    "ROOT_DIR": ".",
+    "ROOT_DIR": "KPKT_SCRAPED_DATA",
 }
 
 NOW = datetime.now()
@@ -211,7 +203,7 @@ def setup_logging_for_pemaju(log_dir: str, pemaju_key: str):
 
 
 # =========================================================
-# FORM ACTIONS
+# FORM ACTIONS (UPDATED ROBUST VERSION)
 # =========================================================
 def perform_search(driver, keyword: str):
     driver.get(CONFIG["BASE_URL"])
@@ -242,10 +234,44 @@ def perform_search(driver, keyword: str):
     # Cari
     btn = wait_clickable(driver, (By.XPATH, "//button[contains(@class,'btn-search') or contains(.,'Cari') or contains(.,'CARI')]"))
     safe_click(driver, btn)
-    ok("Clicked CARI")
+    ok("Clicked CARI - Waiting for Robust Verification...")
 
+    # --- START ROBUST WAIT LOGIC ---
+    # We loop up to 10 times to check if the first row actually contains our keyword.
+    max_retries = 10
+    found_match = False
+
+    for attempt in range(max_retries):
+        time.sleep(2.0) # Wait for page refresh
+
+        try:
+            # 1. Grab the table
+            table = driver.find_element(By.XPATH, "//table[.//tbody//tr]")
+            
+            # 2. Grab the first row
+            first_row = table.find_element(By.XPATH, ".//tbody//tr[1]")
+            
+            # 3. Check text match (Case Insensitive)
+            row_text = first_row.text.upper().strip()
+            target_text = keyword.upper().strip()
+
+            if target_text in row_text:
+                ok(f"✅ VERIFIED: Search result matches '{keyword}'")
+                found_match = True
+                break
+            else:
+                # If we see a row but it's not our developer, it might be the OLD result
+                info(f"⏳ Attempt {attempt+1}: Scraper saw '{row_text[:30]}...' (Waiting for '{keyword}')")
+        
+        except Exception:
+            # Table might be loading, detached, or empty
+            info(f"⏳ Attempt {attempt+1}: Waiting for results table...")
+
+    if not found_match:
+        fail(f"⚠️ WARNING: Time out waiting for '{keyword}'. The scraper will try to process whatever is there.")
+    
+    # Ensure table is visible before returning
     wait_visible(driver, (By.XPATH, "//table[.//tbody//tr]"))
-    ok("Results table loaded")
 
 
 # =========================================================
