@@ -1,0 +1,45 @@
+2026-01-07 15:38:29,092 | INFO | ✅ Log file: ./logs/KPKT_SCRAPE_Everlux Development_20260107_153829.log
+2026-01-07 15:38:29,092 | INFO | ✅ Start Pemaju: Everlux Development
+2026-01-07 15:38:29,092 | INFO | ✅ Output folder: ./data/pemaju/Everlux Development
+2026-01-07 15:38:29,092 | INFO | ====== WebDriver manager ======
+2026-01-07 15:38:36,011 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-07 15:38:36,045 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-07 15:38:36,077 | INFO | There is no [linux64] chromedriver "143.0.7499.192" for browser google-chrome "143.0.7499" in cache
+2026-01-07 15:38:36,077 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-07 15:38:36,189 | INFO | WebDriver version 143.0.7499.192 selected
+2026-01-07 15:38:36,195 | INFO | Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-01-07 15:38:36,195 | INFO | About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.192/linux64/chromedriver-linux64.zip
+2026-01-07 15:38:36,251 | INFO | Driver downloading response is 200
+2026-01-07 15:38:36,312 | INFO | Get LATEST chromedriver version for google-chrome
+2026-01-07 15:38:36,463 | INFO | Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/143.0.7499.192]
+2026-01-07 15:39:03,281 | INFO | ✅ Chrome started (headless=True)
+2026-01-07 15:39:12,218 | INFO | ✅ Opened https://teduh.kpkt.gov.my/semakan-status-kemajuan
+2026-01-07 15:39:17,702 | INFO | ✅ Jenis Carian = Pemaju
+2026-01-07 15:39:22,401 | INFO | ✅ Negeri = Melaka
+2026-01-07 15:39:24,370 | INFO | ✅ Kata Kunci = Everlux Development
+2026-01-07 15:39:26,723 | INFO | ✅ Clicked CARI
+2026-01-07 15:39:26,740 | INFO | ✅ Results table loaded
+2026-01-07 15:39:26,740 | INFO | ✅ Processing listing page 1
+2026-01-07 15:39:26,805 | INFO | ✅ [1] Open: 31210-1 TAMAN BENTARA
+2026-01-07 15:39:31,617 | INFO | ✅ Opened project detail
+2026-01-07 15:39:35,697 | INFO | ✅ Tab opened: maklumat projek
+2026-01-07 15:39:35,745 | INFO | ✅ Daerah Projek = 'Melaka Tengah'
+2026-01-07 15:39:35,784 | INFO | ✅ Maklumat Projek scraped
+2026-01-07 15:39:39,606 | INFO | ✅ Tab opened: status terkini projek
+2026-01-07 15:39:39,622 | INFO | ✅ Maklumat Pembangunan = Berfasa
+2026-01-07 15:39:39,622 | INFO | ✅ Status Keseluruhan = Lancar
+2026-01-07 15:39:39,869 | INFO | ✅ Status table rows = 3
+2026-01-07 15:39:43,689 | INFO | ✅ Tab opened: maklumat projek
+2026-01-07 15:39:48,524 | INFO | ✅ Unit modal opened
+2026-01-07 15:39:52,379 | INFO | ✅ Clicked Paparan Senarai
+2026-01-07 15:39:53,460 | INFO | ✅ Unit rows scraped = 29
+2026-01-07 15:39:55,844 | INFO | ✅ Unit modal closed (TUTUP)
+2026-01-07 15:39:55,844 | INFO | ✅ Unit details scraped
+2026-01-07 15:39:57,365 | INFO | ✅ Returned to listing
+2026-01-07 15:39:57,691 | INFO | ✅ No next page. Pagination done.
+2026-01-07 15:39:57,746 | INFO | ✅ Saved CSV: ./data/pemaju/Everlux Development/Everlux Development_MELAKA_ALL_PROJECTS_20260107.csv
+2026-01-07 15:39:57,746 | INFO | ✅ Saved CSV: ./data/pemaju/Everlux Development/Everlux Development_MELAKA_HOUSE_TYPE_20260107.csv
+2026-01-07 15:39:57,747 | INFO | ✅ Saved CSV: ./data/pemaju/Everlux Development/Everlux Development_MELAKA_UNIT_DETAILS_20260107.csv
+2026-01-07 15:39:57,747 | INFO | ✅ SUMMARY: Projects=1, HouseTypes=3, UnitRows=29
+2026-01-07 15:39:57,747 | INFO | ✅ DONE pemaju scrape
+2026-01-07 15:39:57,817 | INFO | ✅ Chrome driver closed
