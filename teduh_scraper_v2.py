@@ -28,7 +28,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # CONFIG (EDIT THESE VALUES ONLY)
 # =========================================================
 CONFIG = {
-    "HEADLESS": False,   # True = hidden browser, False = visible
+    "HEADLESS": True,   # True = hidden browser, False = visible
     "JENIS_CARIAN": "Pemaju",
     "NEGERI": "Melaka",
     "BASE_URL": "https://teduh.kpkt.gov.my/semakan-status-kemajuan",
