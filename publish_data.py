@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import glob
+from datetime import datetime
 from sqlalchemy import create_engine, text
 from urllib.parse import quote_plus
 
@@ -13,7 +14,7 @@ DB_PORT = os.getenv("DB_PORT", "6543")
 DB_NAME = os.getenv("DB_NAME", "postgres")
 
 # Folder where your scraper saves CSVs
-DATA_DIR = "data/pemaju" 
+DATA_DIR = "KPKT_SCRAPED_DATA/data"  # Updated to match your scraper's ROOT_DIR
 
 def get_engine():
     password = quote_plus(DB_PASS)
@@ -31,20 +32,34 @@ def clean_money(val):
 
 def process_and_upload():
     print("🚀 Starting Publisher...")
+    
+    # 1. GET TODAY'S DATE STRING (Must match scraper's DATE_SUFFIX)
+    # ---------------------------------------------------------
+    today_str = datetime.now().strftime("%Y%m%d") # e.g., "20260120"
+    print(f"📅 Looking for files dated: {today_str}")
+
     engine = get_engine()
 
-    # 1. READ ALL CSV FILES
+    # 2. READ ONLY TODAY'S CSV FILES
     # ---------------------------------------------------------
     all_units = []
     all_projects = []
     all_houses = []
 
+    files_found_count = 0
+
     for root, dirs, files in os.walk(DATA_DIR):
         for file in files:
+            # --- SAFETY FILTER: SKIP OLD FILES ---
+            if today_str not in file:
+                continue
+
             full_path = os.path.join(root, file)
+            files_found_count += 1
             
             # --- A. UNIT DETAILS ---
             if "_MELAKA_UNIT_DETAILS_" in file:
+                print(f"   Found Units: {file}")
                 df = pd.read_csv(full_path)
                 rename_map = {
                     "Kod Projek & Nama Projek": "project_name_raw",
@@ -67,6 +82,7 @@ def process_and_upload():
 
             # --- B. PROJECTS MASTER ---
             elif "_MELAKA_ALL_PROJECTS_" in file:
+                print(f"   Found Master: {file}")
                 df = pd.read_csv(full_path)
                 rename_map = {
                     "Kod Projek & Nama Projek": "project_name_raw",
@@ -90,9 +106,13 @@ def process_and_upload():
 
             # --- C. HOUSE TYPES ---
             elif "_MELAKA_HOUSE_TYPE_" in file:
+                print(f"   Found House Types: {file}")
                 df = pd.read_csv(full_path)
-                # We will rename these later in bulk
                 all_houses.append(df)
+
+    if files_found_count == 0:
+        print(f"⚠️ No files found for date {today_str}. Please run the scraper first.")
+        return
 
     # Combine into single DataFrames
     df_units_final = pd.concat(all_units, ignore_index=True) if all_units else pd.DataFrame()
@@ -100,10 +120,10 @@ def process_and_upload():
     df_houses_final = pd.concat(all_houses, ignore_index=True) if all_houses else pd.DataFrame()
 
     if df_units_final.empty:
-        print("⚠️ No unit data found. Aborting.")
+        print("⚠️ Files found, but unit data is empty. Aborting.")
         return
 
-    # 2. UPDATE LIVE TABLES (WIPE & REPLACE)
+    # 3. UPDATE LIVE TABLES (WIPE & REPLACE)
     # ---------------------------------------------------------
     print("🔄 Updating Live Tables (Wiping old data)...")
     with engine.begin() as conn:
@@ -111,16 +131,15 @@ def process_and_upload():
         conn.execute(text("TRUNCATE TABLE projects_master RESTART IDENTITY;"))
         conn.execute(text("TRUNCATE TABLE house_types RESTART IDENTITY;"))
     
-    # --- 2a. UPLOAD UNITS DETAIL ---
+    # --- 3a. UPLOAD UNITS DETAIL ---
     valid_unit_cols = ["project_code", "project_name", "pemaju_name", "permit_no", "unit_no", "price_sales", "status", "bumi_quota", "scraped_date", "scraped_timestamp"]
-    # Filter to only columns that exist
     cols_to_use = [c for c in valid_unit_cols if c in df_units_final.columns]
     df_units_upload = df_units_final[cols_to_use].copy()
     
     df_units_upload.to_sql("units_detail", engine, if_exists="append", index=False)
     print(f"   -> Uploaded {len(df_units_upload)} rows to units_detail")
     
-    # --- 2b. UPLOAD PROJECTS MASTER ---
+    # --- 3b. UPLOAD PROJECTS MASTER ---
     if not df_projects_final.empty:
         valid_proj_cols = [
             "project_code", "project_name", "pemaju_name", "permit_no", 
@@ -133,9 +152,8 @@ def process_and_upload():
         df_projects_upload.to_sql("projects_master", engine, if_exists="append", index=False)
         print(f"   -> Uploaded {len(df_projects_upload)} rows to projects_master")
 
-    # --- 2c. UPLOAD HOUSE TYPES ---
+    # --- 3c. UPLOAD HOUSE TYPES ---
     if not df_houses_final.empty:
-         # Rename columns here
          rename_house = {
             "Kod Projek": "project_code", "Nama Projek": "project_name", 
             "Jenis Rumah": "house_type", "Bil Tingkat": "num_floors", 
@@ -156,17 +174,15 @@ def process_and_upload():
          print(f"   -> Uploaded {len(df_houses_upload)} rows to house_types")
 
 
-    # 3. GENERATE & UPLOAD HISTORY LOGS
+    # 4. GENERATE & UPLOAD HISTORY LOGS
     # ---------------------------------------------------------
     print("📈 Generating History Logs...")
     
-    # Calculate stats from the fresh df_units_final
     df_calc = df_units_final.copy()
     df_calc["is_sold"] = df_calc["status"].astype(str).str.lower().str.contains("telah dijual")
     df_calc["is_bumi"] = df_calc["bumi_quota"].astype(str).str.lower().str.strip() == "ya"
     df_calc["price"] = df_calc["price_sales"].apply(clean_money)
 
-    # Group by Project
     history_df = df_calc.groupby(["project_code", "project_name", "pemaju_name", "scraped_date"], as_index=False).agg(
         total_units=("unit_no", "count"),
         units_sold=("is_sold", "sum"),
@@ -177,12 +193,28 @@ def process_and_upload():
     history_df["units_unsold"] = history_df["total_units"] - history_df["units_sold"]
     history_df["take_up_rate"] = (history_df["units_sold"] / history_df["total_units"]) * 100
     
-    # Rename for DB
     history_df = history_df.rename(columns={"pemaju_name": "developer_name"})
     
-    # Append to History Table (Do NOT truncate this one!)
-    history_df.to_sql("history_logs", engine, if_exists="append", index=False)
-    print(f"   -> Added {len(history_df)} logs to history_logs")
+    # IMPORTANT: Filter duplicates before appending to History
+    # This prevents adding the exact same log twice if you run the script 2x in one day
+    existing_logs = pd.read_sql("SELECT project_code, scraped_date FROM history_logs", engine)
+    
+    if not existing_logs.empty and not history_df.empty:
+        # Create a unique key for matching
+        history_df["_key"] = history_df["project_code"].astype(str) + "_" + history_df["scraped_date"].astype(str)
+        existing_logs["_key"] = existing_logs["project_code"].astype(str) + "_" + existing_logs["scraped_date"].astype(str)
+        
+        # Filter out rows that already exist
+        initial_len = len(history_df)
+        history_df = history_df[~history_df["_key"].isin(existing_logs["_key"])]
+        history_df = history_df.drop(columns=["_key"])
+        print(f"   -> Skipped {initial_len - len(history_df)} duplicate history logs")
+
+    if not history_df.empty:
+        history_df.to_sql("history_logs", engine, if_exists="append", index=False)
+        print(f"   -> Added {len(history_df)} new logs to history_logs")
+    else:
+        print("   -> No new history logs to add.")
 
     print("✅ Done!")
 
