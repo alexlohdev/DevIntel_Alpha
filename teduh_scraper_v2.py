@@ -2,6 +2,7 @@ import os
 import re
 import time
 import csv
+import glob  # <--- NEW IMPORT ADDED
 import logging
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs
@@ -768,6 +769,24 @@ def read_pemaju_list(txt_path: str):
     return names
 
 def main():
+    # ---------------------------------------------------------------
+    # 🧹 NEW CLEANUP BLOCK: DELETES OLD CSVS BEFORE STARTING
+    # ---------------------------------------------------------------
+    print("🧹 Starting Cleanup: Deleting old CSV files...")
+    # This finds ALL .csv files in your data folder and subfolders
+    # Using recursive=True to get inside /data/pemaju/...
+    files_to_delete = glob.glob(os.path.join(CONFIG["ROOT_DIR"], "data", "**", "*.csv"), recursive=True)
+    
+    for f in files_to_delete:
+        try:
+            os.remove(f)
+            print(f"   Deleted: {f}")
+        except Exception as e:
+            print(f"   Error deleting {f}: {e}")
+            
+    print("✅ Cleanup Done. Starting Scraper...")
+    # ---------------------------------------------------------------
+
     pemaju_list = read_pemaju_list(CONFIG["PEMAJU_LIST_TXT"])
     print(f"Pemaju to scrape: {len(pemaju_list)}")
     results = []
