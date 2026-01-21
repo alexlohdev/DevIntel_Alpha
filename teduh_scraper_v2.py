@@ -41,8 +41,8 @@ CONFIG = {
     # Input list
     "PEMAJU_LIST_TXT": "pemaju_list.txt",
 
-    # Output Root
-    "ROOT_DIR": "KPKT_SCRAPED_DATA",
+    # Output Root (Save directly to the main folder)
+    "ROOT_DIR": ".",
 }
 
 NOW = datetime.now()
