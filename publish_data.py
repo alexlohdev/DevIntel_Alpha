@@ -14,7 +14,7 @@ DB_PORT = os.getenv("DB_PORT", "6543")
 DB_NAME = os.getenv("DB_NAME", "postgres")
 
 # Folder where your scraper saves CSVs
-DATA_DIR = "KPKT_SCRAPED_DATA/data"  # Updated to match your scraper's ROOT_DIR
+DATA_DIR = "data"
 
 def get_engine():
     password = quote_plus(DB_PASS)
@@ -220,3 +220,4 @@ def process_and_upload():
 
 if __name__ == "__main__":
     process_and_upload()
+
