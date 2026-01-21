@@ -2,23 +2,21 @@ name: Scrape, Publish, and Save
 
 on:
   schedule:
-    - cron: '0 22 * * 0' # Runs weekly
-  workflow_dispatch: # Button to run manually
+    - cron: '0 22 * * 0' # Weekly run
+  workflow_dispatch: # Manual button
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     
-    # ⚠️ IMPORTANT: Give permission to write to the repo
+    # ⚠️ PERMISSION TO SAVE FILES
     permissions:
       contents: write
 
     steps:
-      # 1. Checkout Code
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # 2. Setup Environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -34,11 +32,11 @@ jobs:
           pip install --upgrade pip
           pip install selenium webdriver-manager pandas sqlalchemy psycopg2-binary toml
 
-      # 3. RUN SCRAPER (Creates files on the virtual machine)
+      # 1. RUN SCRAPER (Now saves to ./data/)
       - name: Run Scraper
         run: python teduh_scraper_v2.py
 
-      # 4. RUN PUBLISHER (Uploads those files to Supabase)
+      # 2. RUN PUBLISHER (Reads from ./data/)
       - name: Run Publisher
         env:
           DB_PASS: ${{ secrets.DB_PASS }}
@@ -48,12 +46,15 @@ jobs:
           DB_USER: "postgres.fvrzvqamufqfjqufxfqp"
         run: python publish_data.py
 
-      # 5. SAVE TO GITHUB (The Missing Piece!)
+      # 3. SAVE TO GITHUB (Commits the new files)
       - name: Commit and Push Data
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
+          
+          # Add the data folder (matches your repo structure now)
           git add data/
-          # Only commit if there are changes
+          
+          # Commit only if there are changes
           git commit -m "Auto-update: Scraped Data $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
