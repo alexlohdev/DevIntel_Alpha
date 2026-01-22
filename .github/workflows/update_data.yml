@@ -1,18 +1,24 @@
-name: Update Supabase Data
+name: 2. Update Supabase
 
 on:
-  schedule:
-    # 22:00 UTC (Sunday) = 06:00 AM Malaysia (Monday)
-    - cron: '0 22 * * 0' # Runs every Monday at midnight UTC
-  workflow_dispatch: # Allows manual trigger button
+  # Trigger this workflow ONLY when "Weekly Scrape & Save" finishes successfully
+  workflow_run:
+    workflows: ["1. Weekly Scrape & Save"]
+    types:
+      - completed
+  workflow_dispatch: # Manual trigger
 
 jobs:
-  update-db:
+  publish-to-db:
     runs-on: ubuntu-latest
+    # Only run if the scraper actually succeeded
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repo (With new data)
         uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }} 
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -23,13 +29,11 @@ jobs:
         run: |
           pip install pandas sqlalchemy psycopg2-binary toml
 
-      - name: Run Publisher Script
+      - name: Run Publisher
         env:
           DB_PASS: ${{ secrets.DB_PASS }}
-          # UPDATED HOST: Note the 'aws-1' instead of 'aws-0'
-          DB_HOST: "aws-1-ap-southeast-1.pooler.supabase.com"
+          DB_HOST: "aws-0-ap-southeast-1.pooler.supabase.com"
           DB_PORT: "6543"
           DB_NAME: "postgres"
-          # User from your string
           DB_USER: "postgres.fvrzvqamufqfjqufxfqp"
         run: python publish_data.py
