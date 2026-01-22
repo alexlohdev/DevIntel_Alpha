@@ -32,14 +32,15 @@ jobs:
       - name: Run Publisher
         env:
           DB_PASS: ${{ secrets.DB_PASS }}
-          # 1. CHANGE HOST: Use the Direct URL format (db.<project_ref>.supabase.co)
-          # Your project ref is 'fvrzvqamufqfjqufxfqp' (extracted from your old username)
+          
+          # 1. CHANGE HOST: Use the Direct URL format (db.PROJECT_REF.supabase.co)
+          # I extracted your project ref 'fvrzvqamufqfjqufxfqp' from your old logs
           DB_HOST: "db.fvrzvqamufqfjqufxfqp.supabase.co"
           
-          # 2. CHANGE PORT: Use 5432 for Direct Connection
+          # 2. CHANGE PORT: Use 5432 (The Direct Port) instead of 6543
           DB_PORT: "5432"
           
-          # 3. CHANGE USER: Use just 'postgres' (No suffix needed for Direct)
+          # 3. CHANGE USER: Use just 'postgres' (No suffix needed for Direct mode)
           DB_USER: "postgres"
           
           DB_NAME: "postgres"
