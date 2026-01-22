@@ -32,8 +32,15 @@ jobs:
       - name: Run Publisher
         env:
           DB_PASS: ${{ secrets.DB_PASS }}
-          DB_HOST: "aws-0-ap-southeast-1.pooler.supabase.com"
-          DB_PORT: "6543"
+          # 1. CHANGE HOST: Use the Direct URL format (db.<project_ref>.supabase.co)
+          # Your project ref is 'fvrzvqamufqfjqufxfqp' (extracted from your old username)
+          DB_HOST: "db.fvrzvqamufqfjqufxfqp.supabase.co"
+          
+          # 2. CHANGE PORT: Use 5432 for Direct Connection
+          DB_PORT: "5432"
+          
+          # 3. CHANGE USER: Use just 'postgres' (No suffix needed for Direct)
+          DB_USER: "postgres"
+          
           DB_NAME: "postgres"
-          DB_USER: "postgres.fvrzvqamufqfjqufxfqp"
         run: python publish_data.py
